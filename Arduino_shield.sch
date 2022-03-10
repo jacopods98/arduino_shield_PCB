@@ -1568,18 +1568,12 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="ANALOGUE" library="con-harting" deviceset="CON16L" device=""/>
+<part name="A/D" library="con-harting" deviceset="CON16L" device=""/>
 <part name="P+7" library="supply1" deviceset="+15V" device=""/>
 <part name="P-4" library="supply1" deviceset="-15V" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="DIGITAL" library="con-harting" deviceset="CON16L" device=""/>
-<part name="P+9" library="supply1" deviceset="+15V" device=""/>
-<part name="P-5" library="supply1" deviceset="-15V" device=""/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="P+10" library="supply1" deviceset="+5V" device=""/>
-<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="BONUS" library="con-harting" deviceset="CON16L" device=""/>
 <part name="P+11" library="supply1" deviceset="+15V" device=""/>
 <part name="P-6" library="supply1" deviceset="-15V" device=""/>
@@ -1619,9 +1613,9 @@ Jacopo De Santis</text>
 <attribute name="VALUE" x="220.98" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V3" gate="G$1" x="180.34" y="45.72" rot="R90"/>
-<instance part="ANALOGUE" gate="G$1" x="203.2" y="12.7" smashed="yes">
+<instance part="A/D" gate="G$1" x="203.2" y="12.7" smashed="yes">
 <attribute name="VALUE" x="199.39" y="-2.54" size="1.778" layer="96"/>
-<attribute name="NAME" x="196.85" y="23.622" size="1.778" layer="95"/>
+<attribute name="NAME" x="201.422" y="23.622" size="1.778" layer="95"/>
 </instance>
 <instance part="P+7" gate="1" x="190.5" y="17.78" rot="R90"/>
 <instance part="P-4" gate="1" x="182.88" y="20.32" rot="R270"/>
@@ -1630,28 +1624,17 @@ Jacopo De Santis</text>
 <attribute name="VALUE" x="220.98" y="2.54" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V4" gate="G$1" x="180.34" y="15.24" rot="R90"/>
-<instance part="DIGITAL" gate="G$1" x="203.2" y="-20.32" smashed="yes">
-<attribute name="VALUE" x="199.39" y="-35.56" size="1.778" layer="96"/>
-<attribute name="NAME" x="199.39" y="-9.398" size="1.778" layer="95"/>
+<instance part="BONUS" gate="G$1" x="203.2" y="-17.78" smashed="yes">
+<attribute name="VALUE" x="199.39" y="-33.02" size="1.778" layer="96"/>
+<attribute name="NAME" x="198.882" y="-6.858" size="1.778" layer="95"/>
 </instance>
-<instance part="P+9" gate="1" x="190.5" y="-15.24" rot="R90"/>
-<instance part="P-5" gate="1" x="182.88" y="-12.7" rot="R270"/>
-<instance part="GND5" gate="1" x="218.44" y="-12.7" rot="R90"/>
-<instance part="P+10" gate="1" x="218.44" y="-30.48" smashed="yes" rot="R270">
-<attribute name="VALUE" x="220.98" y="-30.48" size="1.778" layer="96"/>
+<instance part="P+11" gate="1" x="190.5" y="-12.7" rot="R90"/>
+<instance part="P-6" gate="1" x="182.88" y="-10.16" rot="R270"/>
+<instance part="GND6" gate="1" x="218.44" y="-10.16" rot="R90"/>
+<instance part="P+12" gate="1" x="218.44" y="-27.94" smashed="yes" rot="R270">
+<attribute name="VALUE" x="220.98" y="-27.94" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V5" gate="G$1" x="180.34" y="-17.78" rot="R90"/>
-<instance part="BONUS" gate="G$1" x="203.2" y="-53.34" smashed="yes">
-<attribute name="VALUE" x="199.39" y="-68.58" size="1.778" layer="96"/>
-<attribute name="NAME" x="198.882" y="-42.418" size="1.778" layer="95"/>
-</instance>
-<instance part="P+11" gate="1" x="190.5" y="-48.26" rot="R90"/>
-<instance part="P-6" gate="1" x="182.88" y="-45.72" rot="R270"/>
-<instance part="GND6" gate="1" x="218.44" y="-45.72" rot="R90"/>
-<instance part="P+12" gate="1" x="218.44" y="-63.5" smashed="yes" rot="R270">
-<attribute name="VALUE" x="220.98" y="-63.5" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V6" gate="G$1" x="172.72" y="-50.8" rot="R90"/>
+<instance part="+3V6" gate="G$1" x="172.72" y="-15.24" rot="R90"/>
 <instance part="GND7" gate="1" x="45.72" y="2.54" rot="R270"/>
 </instances>
 <busses>
@@ -1674,19 +1657,14 @@ Jacopo De Santis</text>
 <wire x1="182.88" y1="45.72" x2="195.58" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ANALOGUE" gate="G$1" pin="12"/>
+<pinref part="A/D" gate="G$1" pin="12"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="182.88" y1="15.24" x2="195.58" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="DIGITAL" gate="G$1" pin="12"/>
-<pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<wire x1="182.88" y1="-17.78" x2="195.58" y2="-17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="BONUS" gate="G$1" pin="12"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
-<wire x1="175.26" y1="-50.8" x2="195.58" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="-15.24" x2="195.58" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+15V" class="0">
@@ -1706,19 +1684,14 @@ Jacopo De Santis</text>
 <wire x1="193.04" y1="48.26" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ANALOGUE" gate="G$1" pin="14"/>
+<pinref part="A/D" gate="G$1" pin="14"/>
 <pinref part="P+7" gate="1" pin="+15V"/>
 <wire x1="193.04" y1="17.78" x2="195.58" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="DIGITAL" gate="G$1" pin="14"/>
-<pinref part="P+9" gate="1" pin="+15V"/>
-<wire x1="193.04" y1="-15.24" x2="195.58" y2="-15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="BONUS" gate="G$1" pin="14"/>
 <pinref part="P+11" gate="1" pin="+15V"/>
-<wire x1="193.04" y1="-48.26" x2="195.58" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-12.7" x2="195.58" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-15V" class="0">
@@ -1738,19 +1711,14 @@ Jacopo De Santis</text>
 <wire x1="185.42" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ANALOGUE" gate="G$1" pin="16"/>
+<pinref part="A/D" gate="G$1" pin="16"/>
 <pinref part="P-4" gate="1" pin="-15V"/>
 <wire x1="185.42" y1="20.32" x2="195.58" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="DIGITAL" gate="G$1" pin="16"/>
-<pinref part="P-5" gate="1" pin="-15V"/>
-<wire x1="185.42" y1="-12.7" x2="195.58" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="BONUS" gate="G$1" pin="16"/>
 <pinref part="P-6" gate="1" pin="-15V"/>
-<wire x1="185.42" y1="-45.72" x2="195.58" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-10.16" x2="195.58" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -1770,19 +1738,14 @@ Jacopo De Santis</text>
 <wire x1="215.9" y1="33.02" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ANALOGUE" gate="G$1" pin="1"/>
+<pinref part="A/D" gate="G$1" pin="1"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
 <wire x1="215.9" y1="2.54" x2="210.82" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="DIGITAL" gate="G$1" pin="1"/>
-<pinref part="P+10" gate="1" pin="+5V"/>
-<wire x1="215.9" y1="-30.48" x2="210.82" y2="-30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="BONUS" gate="G$1" pin="1"/>
 <pinref part="P+12" gate="1" pin="+5V"/>
-<wire x1="215.9" y1="-63.5" x2="210.82" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-27.94" x2="210.82" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1802,19 +1765,14 @@ Jacopo De Santis</text>
 <wire x1="215.9" y1="50.8" x2="210.82" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ANALOGUE" gate="G$1" pin="15"/>
+<pinref part="A/D" gate="G$1" pin="15"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="215.9" y1="20.32" x2="210.82" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="DIGITAL" gate="G$1" pin="15"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="215.9" y1="-12.7" x2="210.82" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="BONUS" gate="G$1" pin="15"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="215.9" y1="-45.72" x2="210.82" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-10.16" x2="210.82" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND_1"/>
@@ -1839,19 +1797,14 @@ Jacopo De Santis</text>
 <label x="213.36" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ANALOGUE" gate="G$1" pin="7"/>
+<pinref part="A/D" gate="G$1" pin="7"/>
 <wire x1="210.82" y1="10.16" x2="213.36" y2="10.16" width="0.1524" layer="91"/>
 <label x="213.36" y="10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="DIGITAL" gate="G$1" pin="7"/>
-<wire x1="210.82" y1="-22.86" x2="213.36" y2="-22.86" width="0.1524" layer="91"/>
-<label x="213.36" y="-22.86" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="BONUS" gate="G$1" pin="7"/>
-<wire x1="210.82" y1="-55.88" x2="213.36" y2="-55.88" width="0.1524" layer="91"/>
-<label x="213.36" y="-55.88" size="1.778" layer="95" xref="yes"/>
+<wire x1="210.82" y1="-20.32" x2="213.36" y2="-20.32" width="0.1524" layer="91"/>
+<label x="213.36" y="-20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -1871,19 +1824,14 @@ Jacopo De Santis</text>
 <label x="213.36" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ANALOGUE" gate="G$1" pin="5"/>
+<pinref part="A/D" gate="G$1" pin="5"/>
 <wire x1="210.82" y1="7.62" x2="213.36" y2="7.62" width="0.1524" layer="91"/>
 <label x="213.36" y="7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="DIGITAL" gate="G$1" pin="5"/>
-<wire x1="210.82" y1="-25.4" x2="213.36" y2="-25.4" width="0.1524" layer="91"/>
-<label x="213.36" y="-25.4" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="BONUS" gate="G$1" pin="5"/>
-<wire x1="210.82" y1="-58.42" x2="213.36" y2="-58.42" width="0.1524" layer="91"/>
-<label x="213.36" y="-58.42" size="1.778" layer="95" xref="yes"/>
+<wire x1="210.82" y1="-22.86" x2="213.36" y2="-22.86" width="0.1524" layer="91"/>
+<label x="213.36" y="-22.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -1903,19 +1851,14 @@ Jacopo De Santis</text>
 <label x="193.04" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ANALOGUE" gate="G$1" pin="4"/>
+<pinref part="A/D" gate="G$1" pin="4"/>
 <wire x1="195.58" y1="5.08" x2="193.04" y2="5.08" width="0.1524" layer="91"/>
 <label x="193.04" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="DIGITAL" gate="G$1" pin="4"/>
-<wire x1="195.58" y1="-27.94" x2="193.04" y2="-27.94" width="0.1524" layer="91"/>
-<label x="193.04" y="-27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="BONUS" gate="G$1" pin="4"/>
-<wire x1="195.58" y1="-60.96" x2="193.04" y2="-60.96" width="0.1524" layer="91"/>
-<label x="193.04" y="-60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="-25.4" x2="193.04" y2="-25.4" width="0.1524" layer="91"/>
+<label x="193.04" y="-25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -1935,19 +1878,14 @@ Jacopo De Santis</text>
 <label x="193.04" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ANALOGUE" gate="G$1" pin="6"/>
+<pinref part="A/D" gate="G$1" pin="6"/>
 <wire x1="195.58" y1="7.62" x2="193.04" y2="7.62" width="0.1524" layer="91"/>
 <label x="193.04" y="7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="DIGITAL" gate="G$1" pin="6"/>
-<wire x1="195.58" y1="-25.4" x2="193.04" y2="-25.4" width="0.1524" layer="91"/>
-<label x="193.04" y="-25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="BONUS" gate="G$1" pin="6"/>
-<wire x1="195.58" y1="-58.42" x2="193.04" y2="-58.42" width="0.1524" layer="91"/>
-<label x="193.04" y="-58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="-22.86" x2="193.04" y2="-22.86" width="0.1524" layer="91"/>
+<label x="193.04" y="-22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SS1" class="0">
@@ -1981,7 +1919,7 @@ Jacopo De Santis</text>
 <label x="93.98" y="83.82" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ANALOGUE" gate="G$1" pin="2"/>
+<pinref part="A/D" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="2.54" x2="193.04" y2="2.54" width="0.1524" layer="91"/>
 <label x="193.04" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -1992,11 +1930,6 @@ Jacopo De Santis</text>
 <wire x1="96.52" y1="81.28" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
 <label x="96.52" y="83.82" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<pinref part="DIGITAL" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="-30.48" x2="193.04" y2="-30.48" width="0.1524" layer="91"/>
-<label x="193.04" y="-30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="SS5" class="0">
 <segment>
@@ -2006,8 +1939,8 @@ Jacopo De Santis</text>
 </segment>
 <segment>
 <pinref part="BONUS" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="-63.5" x2="193.04" y2="-63.5" width="0.1524" layer="91"/>
-<label x="193.04" y="-63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="-27.94" x2="193.04" y2="-27.94" width="0.1524" layer="91"/>
+<label x="193.04" y="-27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="T1OUT" class="0">
@@ -2041,28 +1974,28 @@ Jacopo De Santis</text>
 <label x="81.28" y="-10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ANALOGUE" gate="G$1" pin="8"/>
+<pinref part="A/D" gate="G$1" pin="8"/>
 <wire x1="195.58" y1="10.16" x2="193.04" y2="10.16" width="0.1524" layer="91"/>
 <label x="193.04" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DOUT" class="0">
 <segment>
-<pinref part="DIGITAL" gate="G$1" pin="8"/>
-<wire x1="195.58" y1="-22.86" x2="193.04" y2="-22.86" width="0.1524" layer="91"/>
-<label x="193.04" y="-22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="9"/>
 <wire x1="106.68" y1="81.28" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 <label x="106.68" y="83.82" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="A/D" gate="G$1" pin="10"/>
+<wire x1="195.58" y1="12.7" x2="193.04" y2="12.7" width="0.1524" layer="91"/>
+<label x="193.04" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BAOUT" class="0">
 <segment>
 <pinref part="BONUS" gate="G$1" pin="8"/>
-<wire x1="195.58" y1="-55.88" x2="193.04" y2="-55.88" width="0.1524" layer="91"/>
-<label x="193.04" y="-55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="-20.32" x2="193.04" y2="-20.32" width="0.1524" layer="91"/>
+<label x="193.04" y="-20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A0"/>
@@ -2073,13 +2006,40 @@ Jacopo De Santis</text>
 <net name="BDOUT" class="0">
 <segment>
 <pinref part="BONUS" gate="G$1" pin="10"/>
-<wire x1="195.58" y1="-53.34" x2="193.04" y2="-53.34" width="0.1524" layer="91"/>
-<label x="193.04" y="-53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="-17.78" x2="193.04" y2="-17.78" width="0.1524" layer="91"/>
+<label x="193.04" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="10"/>
 <wire x1="109.22" y1="81.28" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
 <label x="109.22" y="83.82" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="MISO_ICSP"/>
+<wire x1="55.88" y1="66.04" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
+<label x="53.34" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TEMP1" gate="G$1" pin="3"/>
+<wire x1="210.82" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
+<label x="213.36" y="66.04" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TEMP2" gate="G$1" pin="3"/>
+<wire x1="210.82" y1="35.56" x2="213.36" y2="35.56" width="0.1524" layer="91"/>
+<label x="213.36" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="A/D" gate="G$1" pin="3"/>
+<wire x1="210.82" y1="5.08" x2="213.36" y2="5.08" width="0.1524" layer="91"/>
+<label x="213.36" y="5.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="BONUS" gate="G$1" pin="3"/>
+<wire x1="210.82" y1="-25.4" x2="213.36" y2="-25.4" width="0.1524" layer="91"/>
+<label x="213.36" y="-25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

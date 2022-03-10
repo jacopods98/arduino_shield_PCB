@@ -1234,7 +1234,7 @@
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="152.4" y="33.02"/>
+<instance part="U$1" gate="G$1" x="96.52" y="33.02"/>
 </instances>
 <busses>
 </busses>
