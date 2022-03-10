@@ -1591,6 +1591,9 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
+<text x="106.68" y="-35.56" size="2.54" layer="91" font="vector">Srylab 03/2022
+Arduino Shield v1.0
+Jacopo De Santis</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="96.52" y="33.02"/>
@@ -2084,4 +2087,10 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

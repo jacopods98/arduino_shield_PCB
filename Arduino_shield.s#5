@@ -1378,6 +1378,54 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="CoilCircuitLibrary_E7">
+<packages>
+<package name="6PIN_CON">
+<pad name="P$1" x="0" y="0" drill="1.5" shape="square" rot="R270"/>
+<pad name="P$2" x="5" y="0" drill="1.5" shape="square" rot="R270"/>
+<pad name="P$3" x="10" y="0" drill="1.5" shape="square"/>
+<rectangle x1="-3" y1="-3.7" x2="28" y2="4.7" layer="21"/>
+<pad name="P$4" x="15" y="0" drill="1.5" shape="square" rot="R180"/>
+<pad name="P$5" x="20" y="0" drill="1.5" shape="square" rot="R180"/>
+<pad name="P$6" x="25" y="0" drill="1.5" shape="square"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="25" font="vector" ratio="10">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="6PIN_CON">
+<pin name="P$1" x="7.62" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="P$2" x="7.62" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="P$3" x="7.62" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<rectangle x1="-5.08" y1="-22.86" x2="2.54" y2="7.62" layer="94"/>
+<pin name="P$4" x="7.62" y="-10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="P$5" x="7.62" y="-15.24" visible="pad" length="middle" rot="R180"/>
+<pin name="P$6" x="7.62" y="-20.32" visible="pad" length="middle" rot="R180"/>
+<text x="-5.08" y="-27.94" size="1.778" layer="94" font="vector" ratio="10">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="6PIN_CON" prefix="X">
+<gates>
+<gate name="G$1" symbol="6PIN_CON" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="6PIN_CON">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1394,6 +1442,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <part name="CON3" library="con-harting" deviceset="CON16L" device=""/>
 <part name="CON4" library="con-harting" deviceset="CON16L" device=""/>
 <part name="CON5" library="con-harting" deviceset="CON16L" device=""/>
+<part name="X1" library="CoilCircuitLibrary_E7" deviceset="6PIN_CON" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1406,6 +1455,7 @@ This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
 <instance part="CON3" gate="G$1" x="203.2" y="17.78"/>
 <instance part="CON4" gate="G$1" x="203.2" y="-10.16"/>
 <instance part="CON5" gate="G$1" x="203.2" y="-38.1"/>
+<instance part="X1" gate="G$1" x="35.56" y="-25.4"/>
 </instances>
 <busses>
 </busses>
