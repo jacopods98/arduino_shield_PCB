@@ -1045,78 +1045,6 @@ Created by Upverter.com</description>
 </package>
 </packages>
 </library>
-<library name="1AKarstenLib">
-<description>&lt;b&gt;General Eagle Library&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by K.F.&lt;/author&gt;</description>
-<packages>
-<package name="SMA-F_A0201">
-<description>&lt;b&gt;SMA Angle Bulkhead Receptacle, female, for PCB&lt;/b&gt;&lt;br&gt;
-J01151A0201(gold) or J01151A0208(telealloy) from Telegärtner&lt;br&gt;
-&lt;b&gt;Standard/Smaller &lt;/b&gt;drill sizes: 48mil(1.2mm) - outer holes; 55mil(1.4mm) - center hole;&lt;br&gt;
-i.e. small straight SMA like IMS 42.2510.009 (RS:112-3794) might fit as well.&lt;br&gt;
-&lt;b&gt;Tight fit without tilt! &lt;/b&gt;
-
-&lt;p align=left&gt;
-&lt;author&gt;Copied/Created July 2012 by K.F.&lt;/author&gt;</description>
-<wire x1="-1.1" y1="3.4" x2="1.1" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="1.1" x2="3.4" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="1.1" y1="-3.4" x2="-1.1" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-1.1" x2="-3.4" y2="1.1" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="3.4" x2="3.4" y2="3.4" width="0.2032" layer="51"/>
-<wire x1="3.4" y1="3.4" x2="3.4" y2="-3.4" width="0.2032" layer="51"/>
-<wire x1="3.4" y1="-3.4" x2="-3.4" y2="-3.4" width="0.2032" layer="51"/>
-<wire x1="-3.4" y1="-3.4" x2="-3.4" y2="3.4" width="0.2032" layer="51"/>
-<wire x1="5.4" y1="3.3" x2="6.3" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="6.3" y1="3.3" x2="6.3" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="6.3" y1="2.9" x2="7.1" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="7.1" y1="2.9" x2="7.1" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="7.1" y1="3.3" x2="8" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="15" y1="3.4" x2="15.3" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="15.3" y1="2.9" x2="15.9" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="15.9" y1="-2.9" x2="15.9" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="8.9" y1="3.4" x2="15" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.4" y1="-3.3" x2="6.3" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="6.3" y1="-3.3" x2="6.3" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="6.3" y1="-2.9" x2="7.1" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="7.1" y1="-2.9" x2="7.1" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="7.1" y1="-3.3" x2="8" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="15" y1="-3.4" x2="15.3" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="15.3" y1="-2.9" x2="15.9" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="8.9" y1="-3.4" x2="15" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="15.3" y1="-2.9" x2="15.3" y2="2.9" width="0.2032" layer="21"/>
-<wire x1="5.4" y1="-3.9" x2="5.4" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="5.4" y1="-3.3" x2="5.4" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="5.4" y1="3.3" x2="5.4" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="8" y1="4.4" x2="8.9" y2="4.4" width="0.2032" layer="21"/>
-<wire x1="8.9" y1="-4.4" x2="8" y2="-4.4" width="0.2032" layer="21"/>
-<wire x1="8" y1="-2.2" x2="8" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="8" y1="-2.2" x2="8.9" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="8" y1="-2.2" x2="8" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="8" y1="-3.3" x2="8" y2="-4.4" width="0.2032" layer="21"/>
-<wire x1="8" y1="2.2" x2="8.9" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="8" y1="2.2" x2="8" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="8" y1="3.3" x2="8" y2="4.4" width="0.2032" layer="21"/>
-<wire x1="8.9" y1="2.2" x2="8.9" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="8.9" y1="3.4" x2="8.9" y2="4.4" width="0.2032" layer="21"/>
-<wire x1="8.9" y1="2.2" x2="8.9" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="8.9" y1="-4.4" x2="8.9" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="8.9" y1="-3.4" x2="8.9" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="3.9" x2="5.4" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="-3.9" x2="5.4" y2="-3.9" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="3.9" x2="3.4" y2="3.4" width="0.2032" layer="51"/>
-<wire x1="3.4" y1="-3.4" x2="3.4" y2="-3.9" width="0.2032" layer="51"/>
-<wire x1="6.3" y1="2.9" x2="6.3" y2="-2.9" width="0.2032" layer="21"/>
-<wire x1="7.1" y1="2.9" x2="7.1" y2="-2.9" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.397"/>
-<pad name="2" x="-2.5499" y="2.5499" drill="1.2192" diameter="2.54"/>
-<pad name="3" x="2.5499" y="2.5499" drill="1.2192" diameter="2.54"/>
-<pad name="4" x="2.5499" y="-2.5499" drill="1.2192" diameter="2.54"/>
-<pad name="5" x="-2.5499" y="-2.5499" drill="1.2192" diameter="2.54"/>
-<text x="-2.54" y="4.445" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1480,54 +1408,6 @@ design rules under a new name.</description>
 <attribute name="DEVICE_CLASS_L3" value="Signal Relays" x="-38.1" y="-265.43" size="1.778" layer="27" display="off"/>
 <attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-38.1" y="-265.43" size="1.778" layer="27" display="off"/>
 </element>
-<element name="DEV1" library="1AKarstenLib" package="SMA-F_A0201" value="SMA-F_A0201" x="-16.51" y="-299.72">
-<attribute name="MPN" value="J01151A0201" x="-16.51" y="-299.72" size="1.778" layer="27" display="off"/>
-<attribute name="OC_BUERKLIN" value="76F420" x="-16.51" y="-299.72" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Telegaertner" x="-16.51" y="-299.72" size="1.778" layer="27" display="off"/>
-<attribute name="OC_RS" value="193-9117" x="-16.51" y="-299.72" size="1.778" layer="27" display="off"/>
-</element>
-<element name="DEV2" library="1AKarstenLib" package="SMA-F_A0201" value="SMA-F_A0201" x="-16.51" y="-331.47">
-<attribute name="MPN" value="J01151A0201" x="-16.51" y="-331.47" size="1.778" layer="27" display="off"/>
-<attribute name="OC_BUERKLIN" value="76F420" x="-16.51" y="-331.47" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Telegaertner" x="-16.51" y="-331.47" size="1.778" layer="27" display="off"/>
-<attribute name="OC_RS" value="193-9117" x="-16.51" y="-331.47" size="1.778" layer="27" display="off"/>
-</element>
-<element name="DEV3" library="1AKarstenLib" package="SMA-F_A0201" value="SMA-F_A0201" x="-16.51" y="-363.22">
-<attribute name="MPN" value="J01151A0201" x="-16.51" y="-363.22" size="1.778" layer="27" display="off"/>
-<attribute name="OC_BUERKLIN" value="76F420" x="-16.51" y="-363.22" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Telegaertner" x="-16.51" y="-363.22" size="1.778" layer="27" display="off"/>
-<attribute name="OC_RS" value="193-9117" x="-16.51" y="-363.22" size="1.778" layer="27" display="off"/>
-</element>
-<element name="DEV4" library="1AKarstenLib" package="SMA-F_A0201" value="SMA-F_A0201" x="-16.51" y="-394.97">
-<attribute name="MPN" value="J01151A0201" x="-16.51" y="-394.97" size="1.778" layer="27" display="off"/>
-<attribute name="OC_BUERKLIN" value="76F420" x="-16.51" y="-394.97" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Telegaertner" x="-16.51" y="-394.97" size="1.778" layer="27" display="off"/>
-<attribute name="OC_RS" value="193-9117" x="-16.51" y="-394.97" size="1.778" layer="27" display="off"/>
-</element>
-<element name="DEV5" library="1AKarstenLib" package="SMA-F_A0201" value="SMA-F_A0201" x="-16.51" y="-426.72">
-<attribute name="MPN" value="J01151A0201" x="-16.51" y="-426.72" size="1.778" layer="27" display="off"/>
-<attribute name="OC_BUERKLIN" value="76F420" x="-16.51" y="-426.72" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Telegaertner" x="-16.51" y="-426.72" size="1.778" layer="27" display="off"/>
-<attribute name="OC_RS" value="193-9117" x="-16.51" y="-426.72" size="1.778" layer="27" display="off"/>
-</element>
-<element name="DEV6" library="1AKarstenLib" package="SMA-F_A0201" value="SMA-F_A0201" x="-16.51" y="-458.47">
-<attribute name="MPN" value="J01151A0201" x="-16.51" y="-458.47" size="1.778" layer="27" display="off"/>
-<attribute name="OC_BUERKLIN" value="76F420" x="-16.51" y="-458.47" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Telegaertner" x="-16.51" y="-458.47" size="1.778" layer="27" display="off"/>
-<attribute name="OC_RS" value="193-9117" x="-16.51" y="-458.47" size="1.778" layer="27" display="off"/>
-</element>
-<element name="DEV7" library="1AKarstenLib" package="SMA-F_A0201" value="SMA-F_A0201" x="-16.51" y="-490.22">
-<attribute name="MPN" value="J01151A0201" x="-16.51" y="-490.22" size="1.778" layer="27" display="off"/>
-<attribute name="OC_BUERKLIN" value="76F420" x="-16.51" y="-490.22" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Telegaertner" x="-16.51" y="-490.22" size="1.778" layer="27" display="off"/>
-<attribute name="OC_RS" value="193-9117" x="-16.51" y="-490.22" size="1.778" layer="27" display="off"/>
-</element>
-<element name="DEV8" library="1AKarstenLib" package="SMA-F_A0201" value="SMA-F_A0201" x="-16.51" y="-521.97">
-<attribute name="MPN" value="J01151A0201" x="-16.51" y="-521.97" size="1.778" layer="27" display="off"/>
-<attribute name="OC_BUERKLIN" value="76F420" x="-16.51" y="-521.97" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Telegaertner" x="-16.51" y="-521.97" size="1.778" layer="27" display="off"/>
-<attribute name="OC_RS" value="193-9117" x="-16.51" y="-521.97" size="1.778" layer="27" display="off"/>
-</element>
 </elements>
 <signals>
 <signal name="+3V3">
@@ -1585,75 +1465,13 @@ design rules under a new name.</description>
 <contactref element="REL2" pad="8"/>
 <contactref element="REL3" pad="8"/>
 <contactref element="REL4" pad="8"/>
-<contactref element="DEV1" pad="3"/>
-<contactref element="DEV1" pad="4"/>
-<contactref element="DEV1" pad="5"/>
-<contactref element="DEV2" pad="2"/>
-<contactref element="DEV2" pad="3"/>
-<contactref element="DEV2" pad="4"/>
-<contactref element="DEV2" pad="5"/>
-<contactref element="DEV3" pad="2"/>
-<contactref element="DEV3" pad="3"/>
-<contactref element="DEV3" pad="4"/>
-<contactref element="DEV3" pad="5"/>
-<contactref element="DEV4" pad="2"/>
-<contactref element="DEV4" pad="3"/>
-<contactref element="DEV4" pad="4"/>
-<contactref element="DEV4" pad="5"/>
-<contactref element="DEV5" pad="2"/>
-<contactref element="DEV5" pad="3"/>
-<contactref element="DEV5" pad="4"/>
-<contactref element="DEV5" pad="5"/>
-<contactref element="DEV6" pad="2"/>
-<contactref element="DEV6" pad="3"/>
-<contactref element="DEV6" pad="4"/>
-<contactref element="DEV6" pad="5"/>
-<contactref element="DEV7" pad="2"/>
-<contactref element="DEV7" pad="3"/>
-<contactref element="DEV7" pad="4"/>
-<contactref element="DEV7" pad="5"/>
-<contactref element="DEV8" pad="2"/>
-<contactref element="DEV8" pad="3"/>
-<contactref element="DEV8" pad="4"/>
-<contactref element="DEV8" pad="5"/>
-<wire x1="-13.9601" y1="-487.6701" x2="-13.9601" y2="-492.7699" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-487.6701" x2="-13.9601" y2="-487.6701" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-492.7699" x2="-13.9601" y2="-492.7699" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-461.0199" x2="-19.0599" y2="-487.6701" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-455.9201" x2="-19.0599" y2="-461.0199" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-461.0199" x2="-19.0599" y2="-461.0199" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-455.9201" x2="-19.0599" y2="-455.9201" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-429.2699" x2="-19.0599" y2="-455.9201" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-429.2699" x2="-19.0599" y2="-429.2699" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-424.1701" x2="-19.0599" y2="-429.2699" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-424.1701" x2="-13.9601" y2="-429.2699" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-397.5199" x2="-19.0599" y2="-424.1701" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-392.4201" x2="-19.0599" y2="-397.5199" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-397.5199" x2="-19.0599" y2="-397.5199" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-392.4201" x2="-19.0599" y2="-392.4201" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-365.7699" x2="-19.0599" y2="-392.4201" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-365.7699" x2="-19.0599" y2="-365.7699" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-360.6701" x2="-19.0599" y2="-365.7699" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-360.6701" x2="-13.9601" y2="-365.7699" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-334.0199" x2="-19.0599" y2="-360.6701" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-328.9201" x2="-19.0599" y2="-334.0199" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-334.0199" x2="-19.0599" y2="-334.0199" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-328.9201" x2="-19.0599" y2="-328.9201" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-302.2699" x2="-19.0599" y2="-328.9201" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-302.2699" x2="-19.0599" y2="-302.2699" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-297.1701" x2="-13.9601" y2="-302.2699" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-519.4201" x2="-19.0599" y2="-492.7699" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.0599" y1="-524.5199" x2="-19.0599" y2="-519.4201" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-524.5199" x2="-19.0599" y2="-524.5199" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.9601" y1="-519.4201" x2="-19.0599" y2="-519.4201" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.47" y1="-275.13" x2="-13.9601" y2="-297.1701" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.47" y1="-262.43" x2="-30.47" y2="-275.13" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.47" y1="-179.88" x2="-30.47" y2="-262.43" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.04" y1="-179.88" x2="-30.47" y2="-179.88" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.27" y1="-180.34" x2="-19.04" y2="-179.88" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.27" y1="-144.78" x2="-1.27" y2="-180.34" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.27" y1="-127" x2="-1.27" y2="-144.78" width="0" layer="19" extent="1-1"/>
 <wire x1="17.54" y1="-106.68" x2="-1.27" y2="-127" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.47" y1="-262.43" x2="-30.47" y2="-179.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.47" y1="-275.13" x2="-30.47" y2="-262.43" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.27" y1="-13.97" x2="17.54" y2="-106.68" width="0" layer="19" extent="1-1"/>
 <wire x1="21.59" y1="6.35" x2="-1.27" y2="-13.97" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1832,12 +1650,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$16">
 <contactref element="REL4" pad="7"/>
-</signal>
-<signal name="N$17">
-<contactref element="DEV1" pad="1"/>
-</signal>
-<signal name="N$18">
-<contactref element="DEV1" pad="2"/>
 </signal>
 </signals>
 </board>
