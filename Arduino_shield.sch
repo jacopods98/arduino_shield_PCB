@@ -3528,6 +3528,14 @@ Jacopo De Santis</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,203.2,73.8547,TEMP1,,,,,"/>
+<approved hash="113,1,203.2,43.3747,TEMP2,,,,,"/>
+<approved hash="113,1,203.2,12.8947,A/D,,,,,"/>
+<approved hash="113,1,203.2,-17.5853,BONUS,,,,,"/>
+<approved hash="113,1,156.168,40.7712,EXTRADIG,,,,,"/>
+<approved hash="113,1,101.469,-26.7123,EXTRAANALOGUE,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

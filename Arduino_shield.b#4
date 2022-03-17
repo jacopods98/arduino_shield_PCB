@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.254" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.000393700787" altunitdist="inch" altunit="inch"/>
+<grid distance="0.254" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.000039370079" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1443,11 +1443,11 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="DUElib130425" package="DUE(NORMAL)" value="DUE(NORMAL)" x="-61.13" y="-6.12" rot="R90"/>
-<element name="TEMP1" library="con-harting" package="CON16L" value="" x="-77.38" y="73.76">
-<attribute name="OC_FARNELL" value="unknown" x="-77.38" y="73.76" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-77.38" y="73.76" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-77.38" y="73.76" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-77.38" y="73.76" size="1.778" layer="27" display="off"/>
+<element name="TEMP1" library="con-harting" package="CON16L" value="" x="-77.38" y="73.252">
+<attribute name="OC_FARNELL" value="unknown" x="-77.38" y="73.252" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-77.38" y="73.252" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="-77.38" y="73.252" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-77.38" y="73.252" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PWR" library="CoilCircuitLibrary_E7" package="6PIN_CON" value="6PIN_CON" x="106.46" y="65.68" rot="R180"/>
 <element name="TEMP2" library="con-harting" package="CON16L" value="" x="22.62" y="72.73">
@@ -1505,116 +1505,116 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY_DESCRIPTION" value="RELAY TELECOM DPDT 2A 3VDC" x="-7.61" y="14.14" size="1.778" layer="27" display="off"/>
 <attribute name="LEAD_FREE" value="Yes" x="-7.61" y="14.14" size="1.778" layer="27" display="off"/>
 </element>
-<element name="REL1" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.67" y="36.12">
-<attribute name="AUTOMOTIVE" value="No" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Electromechanical" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="STANDOFF_HEIGHT" value="0.25mm" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Relays" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="COIL_RESISTANCE" value="180Ω" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="Signal Relays" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="Yes" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="NUMBER_OF_CONTACTS" value="2" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="THROW_CONFIGURATION" value="DPDT" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="5.65mm" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="CURRENT_RATING" value="2A" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="SMT_RELAY" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="AMBIENT_TEMPERATURE_RANGE_LOW" value="-40°C" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="COIL_POWER" value="50mW" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="SWITCHING_POWER" value="60W" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="COIL_VOLTAGE" value="3V" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="655-IM21GR" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="https://www.te.com/usa-en/product-2-1462039-6.html?te_bu=Cor&amp;te_type=other&amp;te_campaign=oct_glo_cor-oct-global-oth-prtnr-fy19-oct-octo-buy-bom_sma-298_2&amp;elqCampaignId=35216" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="K" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="PB1163CT-ND" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="AMBIENT_TEMPERATURE_RANGE_HIGH" value="+85°C" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="SWITCHING_CURRENT" value="2A" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="2-1462039-6" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="COIL_TYPE" value="Non-Latching" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="2-1462039-6" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="RELAY TELECOM DPDT 2A 3VDC" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="Yes" x="-7.67" y="36.12" size="1.778" layer="27" display="off"/>
+<element name="REL1" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.67" y="34.088">
+<attribute name="AUTOMOTIVE" value="No" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Electromechanical" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="STANDOFF_HEIGHT" value="0.25mm" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Relays" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="COIL_RESISTANCE" value="180Ω" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="Signal Relays" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="Yes" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="NUMBER_OF_CONTACTS" value="2" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="THROW_CONFIGURATION" value="DPDT" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.65mm" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="CURRENT_RATING" value="2A" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="SMT_RELAY" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="AMBIENT_TEMPERATURE_RANGE_LOW" value="-40°C" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="COIL_POWER" value="50mW" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="SWITCHING_POWER" value="60W" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="COIL_VOLTAGE" value="3V" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="655-IM21GR" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="https://www.te.com/usa-en/product-2-1462039-6.html?te_bu=Cor&amp;te_type=other&amp;te_campaign=oct_glo_cor-oct-global-oth-prtnr-fy19-oct-octo-buy-bom_sma-298_2&amp;elqCampaignId=35216" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="K" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="PB1163CT-ND" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="AMBIENT_TEMPERATURE_RANGE_HIGH" value="+85°C" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="SWITCHING_CURRENT" value="2A" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="2-1462039-6" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="COIL_TYPE" value="Non-Latching" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="2-1462039-6" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="RELAY TELECOM DPDT 2A 3VDC" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="LEAD_FREE" value="Yes" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
 </element>
-<element name="REL3" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.67" y="-6.43">
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="COIL_RESISTANCE" value="180Ω" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="COIL_VOLTAGE" value="3V" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="COIL_POWER" value="50mW" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="https://www.te.com/usa-en/product-2-1462039-6.html?te_bu=Cor&amp;te_type=other&amp;te_campaign=oct_glo_cor-oct-global-oth-prtnr-fy19-oct-octo-buy-bom_sma-298_2&amp;elqCampaignId=35216" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="5.65mm" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="PB1163CT-ND" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="CURRENT_RATING" value="2A" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="AMBIENT_TEMPERATURE_RANGE_HIGH" value="+85°C" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="NUMBER_OF_CONTACTS" value="2" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="Yes" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="COIL_TYPE" value="Non-Latching" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="RELAY TELECOM DPDT 2A 3VDC" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="SWITCHING_POWER" value="60W" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="SMT_RELAY" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="AMBIENT_TEMPERATURE_RANGE_LOW" value="-40°C" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="655-IM21GR" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="THROW_CONFIGURATION" value="DPDT" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="K" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="AUTOMOTIVE" value="No" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="Yes" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="2-1462039-6" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Electromechanical" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="SWITCHING_CURRENT" value="2A" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Relays" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="2-1462039-6" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="STANDOFF_HEIGHT" value="0.25mm" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="Signal Relays" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-19.1" y="7.54" size="1.778" layer="27" display="off"/>
+<element name="REL4" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.544" y="-25.104">
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="COIL_RESISTANCE" value="180Ω" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="COIL_VOLTAGE" value="3V" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="COIL_POWER" value="50mW" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="https://www.te.com/usa-en/product-2-1462039-6.html?te_bu=Cor&amp;te_type=other&amp;te_campaign=oct_glo_cor-oct-global-oth-prtnr-fy19-oct-octo-buy-bom_sma-298_2&amp;elqCampaignId=35216" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.65mm" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="PB1163CT-ND" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="CURRENT_RATING" value="2A" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="AMBIENT_TEMPERATURE_RANGE_HIGH" value="+85°C" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="NUMBER_OF_CONTACTS" value="2" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="Yes" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="COIL_TYPE" value="Non-Latching" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="RELAY TELECOM DPDT 2A 3VDC" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="SWITCHING_POWER" value="60W" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="SMT_RELAY" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="AMBIENT_TEMPERATURE_RANGE_LOW" value="-40°C" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="655-IM21GR" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="THROW_CONFIGURATION" value="DPDT" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="K" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="AUTOMOTIVE" value="No" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="LEAD_FREE" value="Yes" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="2-1462039-6" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Electromechanical" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="SWITCHING_CURRENT" value="2A" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Relays" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="2-1462039-6" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="STANDOFF_HEIGHT" value="0.25mm" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="Signal Relays" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
 </element>
-<element name="REL4" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.54" y="-25.1">
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="COIL_RESISTANCE" value="180Ω" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="COIL_VOLTAGE" value="3V" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="COIL_POWER" value="50mW" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="https://www.te.com/usa-en/product-2-1462039-6.html?te_bu=Cor&amp;te_type=other&amp;te_campaign=oct_glo_cor-oct-global-oth-prtnr-fy19-oct-octo-buy-bom_sma-298_2&amp;elqCampaignId=35216" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="5.65mm" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="PB1163CT-ND" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="CURRENT_RATING" value="2A" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="AMBIENT_TEMPERATURE_RANGE_HIGH" value="+85°C" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="NUMBER_OF_CONTACTS" value="2" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="Yes" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="COIL_TYPE" value="Non-Latching" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="RELAY TELECOM DPDT 2A 3VDC" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="SWITCHING_POWER" value="60W" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="SMT_RELAY" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="AMBIENT_TEMPERATURE_RANGE_LOW" value="-40°C" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="655-IM21GR" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="THROW_CONFIGURATION" value="DPDT" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="K" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="AUTOMOTIVE" value="No" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="Yes" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="2-1462039-6" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Electromechanical" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="SWITCHING_CURRENT" value="2A" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Relays" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="2-1462039-6" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="STANDOFF_HEIGHT" value="0.25mm" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="Signal Relays" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-18.97" y="-12.4" size="1.778" layer="27" display="off"/>
+<element name="REL3" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.68" y="-6.43">
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="COIL_RESISTANCE" value="180Ω" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="COIL_VOLTAGE" value="3V" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="COIL_POWER" value="50mW" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="https://www.te.com/usa-en/product-2-1462039-6.html?te_bu=Cor&amp;te_type=other&amp;te_campaign=oct_glo_cor-oct-global-oth-prtnr-fy19-oct-octo-buy-bom_sma-298_2&amp;elqCampaignId=35216" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.65mm" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="PB1163CT-ND" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="CURRENT_RATING" value="2A" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="AMBIENT_TEMPERATURE_RANGE_HIGH" value="+85°C" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="NUMBER_OF_CONTACTS" value="2" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="Yes" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="COIL_TYPE" value="Non-Latching" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="RELAY TELECOM DPDT 2A 3VDC" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="SWITCHING_POWER" value="60W" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="SMT_RELAY" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="AMBIENT_TEMPERATURE_RANGE_LOW" value="-40°C" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="655-IM21GR" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="THROW_CONFIGURATION" value="DPDT" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="K" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="AUTOMOTIVE" value="No" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="LEAD_FREE" value="Yes" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="2-1462039-6" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Electromechanical" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="SWITCHING_CURRENT" value="2A" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Relays" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="2-1462039-6" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="STANDOFF_HEIGHT" value="0.25mm" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="Signal Relays" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
 </element>
 <element name="BUZZER" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="-6.32" y="-45.64"/>
 <element name="EXTRADIG" library="pinhead" package="2X16" value="" x="-70.08" y="40.04"/>
@@ -1636,11 +1636,14 @@ design rules under a new name.</description>
 <contactref element="A/D" pad="12"/>
 <contactref element="BONUS" pad="12"/>
 <contactref element="EXTRAANALOGUE" pad="7"/>
+<wire x1="40.12" y1="-54.81" x2="40.12" y2="-54.852" width="0.254" layer="1"/>
+<wire x1="40.12" y1="-54.852" x2="41.402" y2="-56.134" width="0.254" layer="1"/>
+<wire x1="41.402" y1="-56.134" x2="76.356" y2="-56.134" width="0.254" layer="1"/>
+<wire x1="76.356" y1="-56.134" x2="77.68" y2="-54.81" width="0.254" layer="1"/>
 <wire x1="-21.99" y1="-10.51" x2="18.81" y2="71.46" width="0" layer="19" extent="1-1"/>
 <wire x1="-43.35" y1="-45.49" x2="-21.99" y2="-10.51" width="0" layer="19" extent="1-1"/>
 <wire x1="40.12" y1="-54.81" x2="-21.99" y2="-10.51" width="0" layer="19" extent="1-1"/>
-<wire x1="77.68" y1="-54.81" x2="40.12" y2="-54.81" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.19" y1="72.49" x2="18.81" y2="71.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.19" y1="71.982" x2="18.81" y2="71.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+15V">
 <contactref element="PWR" pad="P$1"/>
@@ -1649,11 +1652,14 @@ design rules under a new name.</description>
 <contactref element="A/D" pad="14"/>
 <contactref element="BONUS" pad="14"/>
 <contactref element="EXTRAANALOGUE" pad="1"/>
+<wire x1="40.12" y1="-52.27" x2="40.12" y2="-52.312" width="0.254" layer="1"/>
+<wire x1="40.12" y1="-52.312" x2="41.402" y2="-53.594" width="0.254" layer="1"/>
+<wire x1="41.402" y1="-53.594" x2="76.356" y2="-53.594" width="0.254" layer="1"/>
+<wire x1="76.356" y1="-53.594" x2="77.68" y2="-52.27" width="0.254" layer="1"/>
 <wire x1="16.27" y1="71.46" x2="106.46" y2="65.68" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.99" y1="-18.13" x2="16.27" y2="71.46" width="0" layer="19" extent="1-1"/>
 <wire x1="40.12" y1="-52.27" x2="-21.99" y2="-18.13" width="0" layer="19" extent="1-1"/>
-<wire x1="77.68" y1="-52.27" x2="40.12" y2="-52.27" width="0" layer="19" extent="1-1"/>
-<wire x1="-83.73" y1="72.49" x2="16.27" y2="71.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-83.73" y1="71.982" x2="16.27" y2="71.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="-15V">
 <contactref element="PWR" pad="P$2"/>
@@ -1662,11 +1668,14 @@ design rules under a new name.</description>
 <contactref element="A/D" pad="16"/>
 <contactref element="BONUS" pad="16"/>
 <contactref element="EXTRAANALOGUE" pad="3"/>
+<wire x1="40.12" y1="-49.73" x2="40.12" y2="-49.772" width="0.254" layer="1"/>
+<wire x1="40.12" y1="-49.772" x2="41.402" y2="-51.054" width="0.254" layer="1"/>
+<wire x1="41.402" y1="-51.054" x2="76.356" y2="-51.054" width="0.254" layer="1"/>
+<wire x1="76.356" y1="-51.054" x2="77.68" y2="-49.73" width="0.254" layer="1"/>
 <wire x1="13.73" y1="71.46" x2="101.46" y2="65.68" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.99" y1="-15.59" x2="13.73" y2="71.46" width="0" layer="19" extent="1-1"/>
 <wire x1="40.12" y1="-49.73" x2="-21.99" y2="-15.59" width="0" layer="19" extent="1-1"/>
-<wire x1="77.68" y1="-49.73" x2="40.12" y2="-49.73" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.27" y1="72.49" x2="13.73" y2="71.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-86.27" y1="71.982" x2="13.73" y2="71.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="PWR" pad="P$3"/>
@@ -1675,11 +1684,14 @@ design rules under a new name.</description>
 <contactref element="A/D" pad="1"/>
 <contactref element="BONUS" pad="1"/>
 <contactref element="EXTRAANALOGUE" pad="5"/>
+<wire x1="80.22" y1="-67.51" x2="80.22" y2="-67.608" width="0.254" layer="1"/>
+<wire x1="80.22" y1="-67.608" x2="78.994" y2="-68.834" width="0.254" layer="1"/>
+<wire x1="78.994" y1="-68.834" x2="43.984" y2="-68.834" width="0.254" layer="1"/>
+<wire x1="43.984" y1="-68.834" x2="42.66" y2="-67.51" width="0.254" layer="1"/>
 <wire x1="31.51" y1="74" x2="96.46" y2="65.68" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.49" y1="75.03" x2="31.51" y2="74" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.99" y1="-13.05" x2="-68.49" y2="75.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.49" y1="74.522" x2="31.51" y2="74" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.99" y1="-13.05" x2="-68.49" y2="74.522" width="0" layer="19" extent="1-1"/>
 <wire x1="42.66" y1="-67.51" x2="-21.99" y2="-13.05" width="0" layer="19" extent="1-1"/>
-<wire x1="80.22" y1="-67.51" x2="42.66" y2="-67.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="PWR" pad="P$4"/>
@@ -1690,8 +1702,8 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="GND_1"/>
 <contactref element="REL2" pad="8"/>
 <contactref element="REL1" pad="8"/>
-<contactref element="REL3" pad="8"/>
 <contactref element="REL4" pad="8"/>
+<contactref element="REL3" pad="8"/>
 <contactref element="BUZZER" pad="P$3"/>
 <contactref element="EXTRAANALOGUE" pad="9"/>
 <polygon width="0.6096" layer="1">
@@ -1706,17 +1718,17 @@ design rules under a new name.</description>
 <vertex x="125" y="-85"/>
 <vertex x="125" y="85"/>
 </polygon>
-<wire x1="-11.47" y1="39.12" x2="-11.41" y2="39.12" width="0.6096" layer="1"/>
+<wire x1="-11.47" y1="37.088" x2="-11.41" y2="37.088" width="0.6096" layer="1"/>
 <wire x1="-11.41" y1="17.14" x2="-11.41" y2="18.83" width="0.6096" layer="1"/>
-<wire x1="-11.47" y1="-3.43" x2="-11.47" y2="-1.75" width="0.6096" layer="1"/>
-<wire x1="-11.34" y1="-22.1" x2="-11.34" y2="-20.38" width="0.6096" layer="1"/>
-<wire x1="-11.47" y1="39.12" x2="-11.46" y2="39.12" width="0.6096" layer="1"/>
-<wire x1="-11.46" y1="39.12" x2="-11.46" y2="40.84" width="0.6096" layer="1"/>
+<wire x1="-11.47" y1="37.088" x2="-11.46" y2="37.088" width="0.6096" layer="1"/>
+<wire x1="-11.46" y1="37.088" x2="-11.46" y2="38.808" width="0.6096" layer="1"/>
 <contactref element="U$1" pad="GND_2"/>
 <contactref element="U$1" pad="GND_A"/>
 <contactref element="U$1" pad="GND_B"/>
 <contactref element="U$1" pad="GND1"/>
 <contactref element="U$1" pad="5V_ICSP"/>
+<wire x1="-11.48" y1="-3.432" x2="-11.48" y2="-1.742" width="0.6096" layer="1"/>
+<wire x1="-11.343" y1="-22.104" x2="-11.35" y2="-20.406" width="0.6096" layer="1"/>
 </signal>
 <signal name="SDA">
 <contactref element="U$1" pad="SDA"/>
@@ -1724,10 +1736,13 @@ design rules under a new name.</description>
 <contactref element="TEMP2" pad="7"/>
 <contactref element="A/D" pad="7"/>
 <contactref element="BONUS" pad="7"/>
-<wire x1="-76.11" y1="75.03" x2="23.89" y2="74" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.61" y1="2.77" x2="-76.11" y2="75.03" width="0" layer="19" extent="1-1"/>
+<wire x1="42.66" y1="-59.89" x2="42.66" y2="-59.932" width="0.254" layer="1"/>
+<wire x1="42.66" y1="-59.932" x2="43.942" y2="-61.214" width="0.254" layer="1"/>
+<wire x1="43.942" y1="-61.214" x2="78.896" y2="-61.214" width="0.254" layer="1"/>
+<wire x1="78.896" y1="-61.214" x2="80.22" y2="-59.89" width="0.254" layer="1"/>
+<wire x1="-76.11" y1="74.522" x2="23.89" y2="74" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.61" y1="2.77" x2="-76.11" y2="74.522" width="0" layer="19" extent="1-1"/>
 <wire x1="42.66" y1="-59.89" x2="23.89" y2="74" width="0" layer="19" extent="1-1"/>
-<wire x1="80.22" y1="-59.89" x2="42.66" y2="-59.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="U$1" pad="SCL"/>
@@ -1735,10 +1750,13 @@ design rules under a new name.</description>
 <contactref element="TEMP2" pad="5"/>
 <contactref element="A/D" pad="5"/>
 <contactref element="BONUS" pad="5"/>
-<wire x1="-73.57" y1="75.03" x2="26.43" y2="74" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.61" y1="5.31" x2="-73.57" y2="75.03" width="0" layer="19" extent="1-1"/>
+<wire x1="80.22" y1="-62.43" x2="80.22" y2="-62.528" width="0.254" layer="1"/>
+<wire x1="80.22" y1="-62.528" x2="78.994" y2="-63.754" width="0.254" layer="1"/>
+<wire x1="78.994" y1="-63.754" x2="43.984" y2="-63.754" width="0.254" layer="1"/>
+<wire x1="43.984" y1="-63.754" x2="42.66" y2="-62.43" width="0.254" layer="1"/>
+<wire x1="-73.57" y1="74.522" x2="26.43" y2="74" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.61" y1="5.31" x2="-73.57" y2="74.522" width="0" layer="19" extent="1-1"/>
 <wire x1="42.66" y1="-62.43" x2="26.43" y2="74" width="0" layer="19" extent="1-1"/>
-<wire x1="80.22" y1="-62.43" x2="42.66" y2="-62.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="U$1" pad="MOSI_ICSP"/>
@@ -1746,10 +1764,23 @@ design rules under a new name.</description>
 <contactref element="TEMP2" pad="4"/>
 <contactref element="A/D" pad="4"/>
 <contactref element="BONUS" pad="4"/>
-<wire x1="-71.03" y1="72.49" x2="28.97" y2="71.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.75" y1="-15.01" x2="-71.03" y2="72.49" width="0" layer="19" extent="1-1"/>
-<wire x1="40.12" y1="-64.97" x2="-68.75" y2="-15.01" width="0" layer="19" extent="1-1"/>
-<wire x1="77.68" y1="-64.97" x2="40.12" y2="-64.97" width="0" layer="19" extent="1-1"/>
+<wire x1="40.12" y1="-64.97" x2="36.122" y2="-64.97" width="0.254" layer="1"/>
+<wire x1="36.122" y1="-64.97" x2="36.068" y2="-65.024" width="0.254" layer="1"/>
+<via x="36.068" y="-65.024" extent="1-16" drill="0.6096"/>
+<wire x1="36.068" y1="-65.024" x2="45.72" y2="-65.024" width="0.254" layer="16"/>
+<via x="45.72" y="-65.024" extent="1-16" drill="0.6096"/>
+<wire x1="45.72" y1="-65.024" x2="77.626" y2="-65.024" width="0.254" layer="1"/>
+<wire x1="77.626" y1="-65.024" x2="77.68" y2="-64.97" width="0.254" layer="1"/>
+<wire x1="-68.75" y1="-15.01" x2="-68.75" y2="-14.562" width="0.254" layer="1"/>
+<wire x1="-68.75" y1="-14.562" x2="-70.104" y2="-13.208" width="0.254" layer="1"/>
+<wire x1="-70.104" y1="-13.208" x2="-89.408" y2="-13.208" width="0.254" layer="1"/>
+<wire x1="-89.408" y1="-13.208" x2="-90.424" y2="-14.224" width="0.254" layer="1"/>
+<wire x1="-90.424" y1="-14.224" x2="-103.632" y2="-14.224" width="0.254" layer="1"/>
+<wire x1="-103.632" y1="-14.224" x2="-109.22" y2="-8.636" width="0.254" layer="1"/>
+<wire x1="-109.22" y1="-8.636" x2="-109.22" y2="33.792" width="0.254" layer="1"/>
+<wire x1="-109.22" y1="33.792" x2="-71.03" y2="71.982" width="0.254" layer="1"/>
+<wire x1="-71.03" y1="71.982" x2="28.97" y2="71.46" width="0" layer="19" extent="1-1"/>
+<wire x1="36.068" y1="-65.024" x2="-68.75" y2="-15.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCK">
 <contactref element="U$1" pad="SCK_ICSP"/>
@@ -1757,15 +1788,35 @@ design rules under a new name.</description>
 <contactref element="TEMP2" pad="6"/>
 <contactref element="A/D" pad="6"/>
 <contactref element="BONUS" pad="6"/>
-<wire x1="-73.57" y1="72.49" x2="26.43" y2="71.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.75" y1="-17.55" x2="-73.57" y2="72.49" width="0" layer="19" extent="1-1"/>
-<wire x1="40.12" y1="-62.43" x2="-68.75" y2="-17.55" width="0" layer="19" extent="1-1"/>
-<wire x1="77.68" y1="-62.43" x2="40.12" y2="-62.43" width="0" layer="19" extent="1-1"/>
+<wire x1="40.12" y1="-62.43" x2="36.122" y2="-62.43" width="0.254" layer="1"/>
+<wire x1="36.122" y1="-62.43" x2="36.068" y2="-62.484" width="0.254" layer="1"/>
+<via x="36.068" y="-62.484" extent="1-16" drill="0.6096"/>
+<wire x1="36.068" y1="-62.484" x2="45.72" y2="-62.484" width="0.254" layer="16"/>
+<via x="45.72" y="-62.484" extent="1-16" drill="0.6096"/>
+<wire x1="45.72" y1="-62.484" x2="77.626" y2="-62.484" width="0.254" layer="1"/>
+<wire x1="77.626" y1="-62.484" x2="77.68" y2="-62.43" width="0.254" layer="1"/>
+<wire x1="-68.75" y1="-17.55" x2="-68.858" y2="-17.55" width="0.254" layer="1"/>
+<wire x1="-68.858" y1="-17.55" x2="-71.374" y2="-20.066" width="0.254" layer="1"/>
+<wire x1="-71.374" y1="-20.066" x2="-86.106" y2="-20.066" width="0.254" layer="1"/>
+<wire x1="-86.106" y1="-20.066" x2="-90.17" y2="-16.002" width="0.254" layer="1"/>
+<wire x1="-90.17" y1="-16.002" x2="-106.934" y2="-16.002" width="0.254" layer="1"/>
+<wire x1="-106.934" y1="-16.002" x2="-114.046" y2="-8.89" width="0.254" layer="1"/>
+<wire x1="-114.046" y1="-8.89" x2="-114.046" y2="35.56" width="0.254" layer="1"/>
+<via x="-114.046" y="35.56" extent="1-16" drill="0.6096"/>
+<wire x1="-114.046" y1="35.56" x2="-111.506" y2="38.1" width="0.254" layer="16"/>
+<wire x1="-111.506" y1="38.1" x2="-108.712" y2="38.1" width="0.254" layer="16"/>
+<via x="-108.712" y="38.1" extent="1-16" drill="0.6096"/>
+<wire x1="-108.712" y1="38.1" x2="-79.248" y2="67.564" width="0.254" layer="1"/>
+<wire x1="-79.248" y1="67.564" x2="-77.216" y2="67.564" width="0.254" layer="1"/>
+<wire x1="-77.216" y1="67.564" x2="-73.57" y2="71.21" width="0.254" layer="1"/>
+<wire x1="-73.57" y1="71.21" x2="-73.57" y2="71.982" width="0.254" layer="1"/>
+<wire x1="-73.57" y1="71.21" x2="26.43" y2="71.46" width="0" layer="19" extent="1-1"/>
+<wire x1="36.068" y1="-62.484" x2="-68.75" y2="-17.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SS1">
 <contactref element="U$1" pad="2"/>
 <contactref element="TEMP1" pad="2"/>
-<wire x1="-68.49" y1="72.49" x2="-91.61" y2="-22.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.49" y1="71.982" x2="-91.61" y2="-22.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SS2">
 <contactref element="U$1" pad="3"/>
@@ -1785,7 +1836,24 @@ design rules under a new name.</description>
 <signal name="T1OUT">
 <contactref element="U$1" pad="A1"/>
 <contactref element="TEMP1" pad="8"/>
-<wire x1="-76.11" y1="72.49" x2="-43.35" y2="-27.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.11" y1="71.982" x2="-79.004" y2="69.088" width="0.254" layer="1"/>
+<wire x1="-79.004" y1="69.088" x2="-81.534" y2="69.088" width="0.254" layer="1"/>
+<via x="-81.534" y="69.088" extent="1-16" drill="0.6096"/>
+<wire x1="-81.534" y1="69.088" x2="-82.804" y2="67.818" width="0.254" layer="16"/>
+<wire x1="-82.804" y1="67.818" x2="-82.804" y2="65.786" width="0.254" layer="16"/>
+<wire x1="-82.804" y1="65.786" x2="-78.994" y2="61.976" width="0.254" layer="16"/>
+<wire x1="-78.994" y1="61.976" x2="-77.724" y2="61.976" width="0.254" layer="16"/>
+<via x="-77.724" y="61.976" extent="1-16" drill="0.6096"/>
+<wire x1="-77.724" y1="61.976" x2="-66.802" y2="61.976" width="0.254" layer="1"/>
+<wire x1="-66.802" y1="61.976" x2="-49.022" y2="44.196" width="0.254" layer="1"/>
+<wire x1="-49.022" y1="44.196" x2="-49.022" y2="19.812" width="0.254" layer="1"/>
+<wire x1="-49.022" y1="19.812" x2="-46.736" y2="17.526" width="0.254" layer="1"/>
+<wire x1="-46.736" y1="17.526" x2="-46.736" y2="9.398" width="0.254" layer="1"/>
+<wire x1="-46.736" y1="9.398" x2="-57.912" y2="-1.778" width="0.254" layer="1"/>
+<wire x1="-57.912" y1="-1.778" x2="-57.912" y2="-23.368" width="0.254" layer="1"/>
+<wire x1="-57.912" y1="-23.368" x2="-53.594" y2="-27.686" width="0.254" layer="1"/>
+<wire x1="-53.594" y1="-27.686" x2="-43.374" y2="-27.686" width="0.254" layer="1"/>
+<wire x1="-43.374" y1="-27.686" x2="-43.35" y2="-27.71" width="0.254" layer="1"/>
 </signal>
 <signal name="T2OUT">
 <contactref element="U$1" pad="A2"/>
@@ -1800,7 +1868,17 @@ design rules under a new name.</description>
 <signal name="DOUT">
 <contactref element="A/D" pad="10"/>
 <contactref element="U$1" pad="8"/>
-<wire x1="77.68" y1="-57.35" x2="-91.61" y2="-39.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.61" y1="-39.14" x2="-102.132" y2="-39.14" width="0.254" layer="1"/>
+<wire x1="-102.132" y1="-39.14" x2="-104.902" y2="-41.91" width="0.254" layer="1"/>
+<wire x1="-104.902" y1="-41.91" x2="-104.902" y2="-68.072" width="0.254" layer="1"/>
+<wire x1="-104.902" y1="-68.072" x2="-101.346" y2="-71.628" width="0.254" layer="1"/>
+<wire x1="-101.346" y1="-71.628" x2="66.802" y2="-71.628" width="0.254" layer="1"/>
+<via x="66.802" y="-71.628" extent="1-16" drill="0.6096"/>
+<wire x1="66.802" y1="-71.628" x2="71.628" y2="-66.802" width="0.254" layer="16"/>
+<wire x1="71.628" y1="-66.802" x2="71.628" y2="-58.674" width="0.254" layer="16"/>
+<via x="71.628" y="-58.674" extent="1-16" drill="0.6096"/>
+<wire x1="71.628" y1="-58.674" x2="76.356" y2="-58.674" width="0.254" layer="1"/>
+<wire x1="76.356" y1="-58.674" x2="77.68" y2="-57.35" width="0.254" layer="1"/>
 </signal>
 <signal name="BAOUT">
 <contactref element="BONUS" pad="8"/>
@@ -1810,7 +1888,14 @@ design rules under a new name.</description>
 <signal name="BDOUT">
 <contactref element="BONUS" pad="10"/>
 <contactref element="U$1" pad="9"/>
-<wire x1="40.12" y1="-57.35" x2="-91.61" y2="-41.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.61" y1="-41.68" x2="-102.132" y2="-41.68" width="0.254" layer="1"/>
+<wire x1="-102.132" y1="-41.68" x2="-103.124" y2="-42.672" width="0.254" layer="1"/>
+<wire x1="-100.584" y1="-69.85" x2="13.716" y2="-69.85" width="0.254" layer="1"/>
+<wire x1="13.716" y1="-69.85" x2="26.416" y2="-57.15" width="0.254" layer="1"/>
+<wire x1="26.416" y1="-57.15" x2="39.92" y2="-57.15" width="0.254" layer="1"/>
+<wire x1="39.92" y1="-57.15" x2="40.12" y2="-57.35" width="0.254" layer="1"/>
+<wire x1="-103.124" y1="-42.672" x2="-103.124" y2="-67.31" width="0.254" layer="1"/>
+<wire x1="-103.124" y1="-67.31" x2="-100.584" y2="-69.85" width="0.254" layer="1"/>
 </signal>
 <signal name="MISO">
 <contactref element="U$1" pad="MISO_ICSP"/>
@@ -1818,10 +1903,20 @@ design rules under a new name.</description>
 <contactref element="TEMP2" pad="3"/>
 <contactref element="A/D" pad="3"/>
 <contactref element="BONUS" pad="3"/>
-<wire x1="-71.03" y1="75.03" x2="28.97" y2="74" width="0" layer="19" extent="1-1"/>
-<wire x1="-71.29" y1="-17.55" x2="-71.03" y2="75.03" width="0" layer="19" extent="1-1"/>
+<wire x1="80.22" y1="-64.97" x2="80.22" y2="-65.068" width="0.254" layer="1"/>
+<wire x1="80.22" y1="-65.068" x2="78.994" y2="-66.294" width="0.254" layer="1"/>
+<wire x1="78.994" y1="-66.294" x2="43.984" y2="-66.294" width="0.254" layer="1"/>
+<wire x1="43.984" y1="-66.294" x2="42.66" y2="-64.97" width="0.254" layer="1"/>
+<wire x1="-71.29" y1="-17.55" x2="-87.098" y2="-17.55" width="0.254" layer="1"/>
+<wire x1="-87.098" y1="-17.55" x2="-89.408" y2="-15.24" width="0.254" layer="1"/>
+<wire x1="-89.408" y1="-15.24" x2="-104.902" y2="-15.24" width="0.254" layer="1"/>
+<wire x1="-104.902" y1="-15.24" x2="-111.252" y2="-8.89" width="0.254" layer="1"/>
+<wire x1="-111.252" y1="-8.89" x2="-111.252" y2="59.436" width="0.254" layer="1"/>
+<wire x1="-111.252" y1="59.436" x2="-92.964" y2="77.724" width="0.254" layer="1"/>
+<wire x1="-92.964" y1="77.724" x2="-74.232" y2="77.724" width="0.254" layer="1"/>
+<wire x1="-74.232" y1="77.724" x2="-71.03" y2="74.522" width="0.254" layer="1"/>
+<wire x1="-71.03" y1="74.522" x2="28.97" y2="74" width="0" layer="19" extent="1-1"/>
 <wire x1="42.66" y1="-64.97" x2="-71.29" y2="-17.55" width="0" layer="19" extent="1-1"/>
-<wire x1="80.22" y1="-64.97" x2="42.66" y2="-64.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RR1">
 <contactref element="REL2" pad="1"/>
@@ -1831,77 +1926,113 @@ design rules under a new name.</description>
 <signal name="RR2">
 <contactref element="REL1" pad="1"/>
 <contactref element="U$1" pad="11"/>
-<wire x1="-11.47" y1="33.12" x2="-91.61" y2="-46.76" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.47" y1="31.088" x2="-91.61" y2="-46.76" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RR3">
 <contactref element="U$1" pad="12"/>
-<contactref element="REL3" pad="1"/>
-<wire x1="-11.47" y1="-9.43" x2="-91.61" y2="-49.3" width="0" layer="19" extent="1-1"/>
+<contactref element="REL4" pad="1"/>
+<wire x1="-11.344" y1="-28.104" x2="-91.61" y2="-49.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RR4">
 <contactref element="U$1" pad="13"/>
-<contactref element="REL4" pad="1"/>
-<wire x1="-11.34" y1="-28.1" x2="-91.61" y2="-51.84" width="0" layer="19" extent="1-1"/>
+<contactref element="REL3" pad="1"/>
+<wire x1="-11.48" y1="-9.43" x2="-91.61" y2="-51.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D1A">
 <contactref element="REL1" pad="6"/>
-<contactref element="DEV1" pad="P$3"/>
-<wire x1="-6.07" y1="39.12" x2="35.68" y2="33.94" width="0" layer="19" extent="1-1"/>
+<contactref element="DEV1" pad="P$2"/>
+<wire x1="-6.07" y1="37.088" x2="-6.07" y2="38.38" width="0.254" layer="1"/>
+<wire x1="-6.07" y1="38.38" x2="-5.588" y2="38.862" width="0.254" layer="1"/>
+<wire x1="-5.588" y1="38.862" x2="25.758" y2="38.862" width="0.254" layer="1"/>
+<wire x1="25.758" y1="38.862" x2="30.68" y2="33.94" width="0.254" layer="1"/>
 </signal>
 <signal name="D1B">
 <contactref element="REL1" pad="7"/>
-<contactref element="DEV1" pad="P$2"/>
-<wire x1="-8.27" y1="39.12" x2="30.68" y2="33.94" width="0" layer="19" extent="1-1"/>
+<contactref element="DEV1" pad="P$3"/>
+<wire x1="-8.27" y1="37.088" x2="-8.27" y2="37.45" width="0.254" layer="1"/>
+<wire x1="-8.27" y1="37.45" x2="-5.588" y2="40.132" width="0.254" layer="1"/>
+<wire x1="-5.588" y1="40.132" x2="29.488" y2="40.132" width="0.254" layer="1"/>
+<wire x1="29.488" y1="40.132" x2="35.68" y2="33.94" width="0.254" layer="1"/>
 </signal>
 <signal name="D2A">
 <contactref element="REL1" pad="3"/>
-<contactref element="DEV2" pad="P$3"/>
-<wire x1="-6.07" y1="33.12" x2="86.68" y2="34.08" width="0" layer="19" extent="1-1"/>
+<contactref element="DEV2" pad="P$2"/>
+<wire x1="-6.07" y1="31.088" x2="-6.07" y2="29.438" width="0.254" layer="1"/>
+<wire x1="-6.07" y1="29.438" x2="-5.588" y2="28.956" width="0.254" layer="1"/>
+<wire x1="-5.588" y1="28.956" x2="76.556" y2="28.956" width="0.254" layer="1"/>
+<wire x1="76.556" y1="28.956" x2="81.68" y2="34.08" width="0.254" layer="1"/>
 </signal>
 <signal name="D2B">
 <contactref element="REL1" pad="2"/>
-<contactref element="DEV2" pad="P$2"/>
-<wire x1="-8.27" y1="33.12" x2="81.68" y2="34.08" width="0" layer="19" extent="1-1"/>
+<contactref element="DEV2" pad="P$3"/>
+<wire x1="-8.27" y1="31.088" x2="-8.27" y2="29.606" width="0.254" layer="1"/>
+<wire x1="-8.27" y1="29.606" x2="-5.588" y2="26.924" width="0.254" layer="1"/>
+<wire x1="-5.588" y1="26.924" x2="79.524" y2="26.924" width="0.254" layer="1"/>
+<wire x1="79.524" y1="26.924" x2="86.68" y2="34.08" width="0.254" layer="1"/>
 </signal>
 <signal name="D5A">
-<contactref element="REL4" pad="6"/>
-<contactref element="DEV5" pad="P$3"/>
-<wire x1="-5.94" y1="-22.1" x2="35.68" y2="-5.5" width="0" layer="19" extent="1-1"/>
+<contactref element="REL3" pad="6"/>
+<contactref element="DEV5" pad="P$2"/>
+<wire x1="-6.08" y1="-3.43" x2="-6.08" y2="-1.762" width="0.254" layer="1"/>
+<wire x1="-6.08" y1="-1.762" x2="-5.842" y2="-1.524" width="0.254" layer="1"/>
+<wire x1="-5.842" y1="-1.524" x2="26.704" y2="-1.524" width="0.254" layer="1"/>
+<wire x1="26.704" y1="-1.524" x2="30.68" y2="-5.5" width="0.254" layer="1"/>
 </signal>
 <signal name="D5B">
-<contactref element="REL4" pad="7"/>
-<contactref element="DEV5" pad="P$2"/>
-<wire x1="30.68" y1="-5.5" x2="-8.14" y2="-22.1" width="0" layer="19" extent="1-1"/>
+<contactref element="REL3" pad="7"/>
+<contactref element="DEV5" pad="P$3"/>
+<wire x1="-8.28" y1="-3.43" x2="-8.28" y2="-2.184" width="0.254" layer="1"/>
+<wire x1="-8.28" y1="-2.184" x2="-6.096" y2="0" width="0.254" layer="1"/>
+<wire x1="-6.096" y1="0" x2="30.18" y2="0" width="0.254" layer="1"/>
+<wire x1="30.18" y1="0" x2="35.68" y2="-5.5" width="0.254" layer="1"/>
 </signal>
 <signal name="D6A">
-<contactref element="REL4" pad="3"/>
-<contactref element="DEV6" pad="P$3"/>
-<wire x1="-5.94" y1="-28.1" x2="86.68" y2="-5.36" width="0" layer="19" extent="1-1"/>
+<contactref element="REL3" pad="3"/>
+<contactref element="DEV6" pad="P$2"/>
+<wire x1="-6.08" y1="-9.43" x2="-6.08" y2="-11.192" width="0.254" layer="1"/>
+<wire x1="-6.08" y1="-11.192" x2="-5.08" y2="-12.192" width="0.254" layer="1"/>
+<wire x1="-5.08" y1="-12.192" x2="74.848" y2="-12.192" width="0.254" layer="1"/>
+<wire x1="74.848" y1="-12.192" x2="81.68" y2="-5.36" width="0.254" layer="1"/>
 </signal>
 <signal name="D6B">
-<contactref element="REL4" pad="2"/>
-<contactref element="DEV6" pad="P$2"/>
-<wire x1="-8.14" y1="-28.1" x2="81.68" y2="-5.36" width="0" layer="19" extent="1-1"/>
+<contactref element="REL3" pad="2"/>
+<contactref element="DEV6" pad="P$3"/>
+<wire x1="-8.28" y1="-9.43" x2="-8.28" y2="-10.516" width="0.254" layer="1"/>
+<wire x1="-8.28" y1="-10.516" x2="-5.08" y2="-13.716" width="0.254" layer="1"/>
+<wire x1="-5.08" y1="-13.716" x2="78.324" y2="-13.716" width="0.254" layer="1"/>
+<wire x1="78.324" y1="-13.716" x2="86.68" y2="-5.36" width="0.254" layer="1"/>
 </signal>
 <signal name="D7A">
-<contactref element="REL3" pad="6"/>
-<contactref element="DEV7" pad="P$3"/>
-<wire x1="-6.07" y1="-3.43" x2="59.68" y2="-25.22" width="0" layer="19" extent="1-1"/>
+<contactref element="REL4" pad="6"/>
+<contactref element="DEV7" pad="P$2"/>
+<wire x1="-5.944" y1="-22.104" x2="-5.944" y2="-20.676" width="0.254" layer="1"/>
+<wire x1="-5.944" y1="-20.676" x2="-5.588" y2="-20.32" width="0.254" layer="1"/>
+<wire x1="-5.588" y1="-20.32" x2="49.78" y2="-20.32" width="0.254" layer="1"/>
+<wire x1="49.78" y1="-20.32" x2="54.68" y2="-25.22" width="0.254" layer="1"/>
 </signal>
 <signal name="D7B">
-<contactref element="REL3" pad="7"/>
-<contactref element="DEV7" pad="P$2"/>
-<wire x1="-8.27" y1="-3.43" x2="54.68" y2="-25.22" width="0" layer="19" extent="1-1"/>
+<contactref element="REL4" pad="7"/>
+<contactref element="DEV7" pad="P$3"/>
+<wire x1="-8.144" y1="-22.104" x2="-8.144" y2="-20.844" width="0.254" layer="1"/>
+<wire x1="-8.144" y1="-20.844" x2="-6.096" y2="-18.796" width="0.254" layer="1"/>
+<wire x1="-6.096" y1="-18.796" x2="53.256" y2="-18.796" width="0.254" layer="1"/>
+<wire x1="53.256" y1="-18.796" x2="59.68" y2="-25.22" width="0.254" layer="1"/>
 </signal>
 <signal name="D8A">
-<contactref element="REL3" pad="3"/>
-<contactref element="DEV8" pad="P$3"/>
-<wire x1="-6.07" y1="-9.43" x2="109.68" y2="-25.08" width="0" layer="19" extent="1-1"/>
+<contactref element="REL4" pad="3"/>
+<contactref element="DEV8" pad="P$2"/>
+<wire x1="-5.944" y1="-28.104" x2="-5.944" y2="-30.124" width="0.254" layer="1"/>
+<wire x1="-5.944" y1="-30.124" x2="-5.588" y2="-30.48" width="0.254" layer="1"/>
+<wire x1="-5.588" y1="-30.48" x2="99.28" y2="-30.48" width="0.254" layer="1"/>
+<wire x1="99.28" y1="-30.48" x2="104.68" y2="-25.08" width="0.254" layer="1"/>
 </signal>
 <signal name="D8B">
-<contactref element="REL3" pad="2"/>
-<contactref element="DEV8" pad="P$2"/>
-<wire x1="-8.27" y1="-9.43" x2="104.68" y2="-25.08" width="0" layer="19" extent="1-1"/>
+<contactref element="REL4" pad="2"/>
+<contactref element="DEV8" pad="P$3"/>
+<wire x1="-8.144" y1="-28.104" x2="-8.144" y2="-29.448" width="0.254" layer="1"/>
+<wire x1="-8.144" y1="-29.448" x2="-5.588" y2="-32.004" width="0.254" layer="1"/>
+<wire x1="-5.588" y1="-32.004" x2="102.756" y2="-32.004" width="0.254" layer="1"/>
+<wire x1="102.756" y1="-32.004" x2="109.68" y2="-25.08" width="0.254" layer="1"/>
 </signal>
 <signal name="BUZZ">
 <contactref element="U$1" pad="7"/>
@@ -2181,24 +2312,38 @@ design rules under a new name.</description>
 <wire x1="-25.11" y1="0.23" x2="-24.53" y2="-0.35" width="0.254" layer="1"/>
 </signal>
 <signal name="D3A">
-<contactref element="DEV3" pad="P$3"/>
 <contactref element="REL2" pad="6"/>
-<wire x1="-6.01" y1="17.14" x2="59.68" y2="14.22" width="0" layer="19" extent="1-1"/>
+<contactref element="DEV3" pad="P$2"/>
+<wire x1="-6.01" y1="17.14" x2="-6.01" y2="18.882" width="0.254" layer="1"/>
+<wire x1="-6.01" y1="18.882" x2="-5.588" y2="19.304" width="0.254" layer="1"/>
+<wire x1="-5.588" y1="19.304" x2="49.596" y2="19.304" width="0.254" layer="1"/>
+<wire x1="49.596" y1="19.304" x2="54.68" y2="14.22" width="0.254" layer="1"/>
 </signal>
 <signal name="D3B">
-<contactref element="DEV3" pad="P$2"/>
 <contactref element="REL2" pad="7"/>
-<wire x1="-8.21" y1="17.14" x2="54.68" y2="14.22" width="0" layer="19" extent="1-1"/>
+<contactref element="DEV3" pad="P$3"/>
+<wire x1="-8.21" y1="17.14" x2="-8.21" y2="18.206" width="0.254" layer="1"/>
+<wire x1="-8.21" y1="18.206" x2="-5.588" y2="20.828" width="0.254" layer="1"/>
+<wire x1="-5.588" y1="20.828" x2="53.072" y2="20.828" width="0.254" layer="1"/>
+<wire x1="53.072" y1="20.828" x2="59.68" y2="14.22" width="0.254" layer="1"/>
 </signal>
 <signal name="D4A">
 <contactref element="REL2" pad="3"/>
-<contactref element="DEV4" pad="P$3"/>
-<wire x1="-6.01" y1="11.14" x2="109.68" y2="14.36" width="0" layer="19" extent="1-1"/>
+<contactref element="DEV4" pad="P$2"/>
+<wire x1="-6.01" y1="11.14" x2="-6.01" y2="9.566" width="0.254" layer="1"/>
+<wire x1="-6.01" y1="9.566" x2="-5.588" y2="9.144" width="0.254" layer="1"/>
+<wire x1="-5.588" y1="9.144" x2="99.464" y2="9.144" width="0.254" layer="1"/>
+<wire x1="99.464" y1="9.144" x2="104.68" y2="14.36" width="0.254" layer="1"/>
 </signal>
 <signal name="D4B">
 <contactref element="REL2" pad="2"/>
-<contactref element="DEV4" pad="P$2"/>
-<wire x1="-8.21" y1="11.14" x2="104.68" y2="14.36" width="0" layer="19" extent="1-1"/>
+<contactref element="DEV4" pad="P$3"/>
+<wire x1="-8.21" y1="11.14" x2="-8.21" y2="10.242" width="0.254" layer="1"/>
+<wire x1="-8.21" y1="10.242" x2="-5.588" y2="7.62" width="0.254" layer="1"/>
+<wire x1="-5.588" y1="7.62" x2="102.94" y2="7.62" width="0.254" layer="1"/>
+<wire x1="102.94" y1="7.62" x2="109.68" y2="14.36" width="0.254" layer="1"/>
+</signal>
+<signal name="SDA1">
 </signal>
 </signals>
 </board>
