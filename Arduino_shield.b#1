@@ -1471,7 +1471,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="78.95" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="78.95" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="78.95" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="84.8682" y="-49.095" size="0.889" layer="25" ratio="24" rot="R270"/>
+<attribute name="NAME" x="72.9302" y="-57.477" size="0.889" layer="25" ratio="24" rot="R270"/>
 <attribute name="VALUE" x="72.6" y="-48.46" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="BONUS" library="con-harting" package="CON16L" value="" x="41.39" y="-58.62" smashed="yes" rot="R270">
@@ -1479,7 +1479,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="41.39" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="41.39" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="41.39" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="47.3082" y="-49.095" size="0.889" layer="25" ratio="24" rot="R270"/>
+<attribute name="NAME" x="34.6082" y="-57.477" size="0.889" layer="25" ratio="24" rot="R270"/>
 <attribute name="VALUE" x="35.04" y="-48.46" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="REL2" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.61" y="14.14" smashed="yes">
@@ -2158,8 +2158,7 @@ design rules under a new name.</description>
 <signal name="BAOUT">
 <contactref element="BONUS" pad="8"/>
 <contactref element="U$1" pad="A0"/>
-<wire x1="34.29" y1="-59.69" x2="40.64" y2="-59.69" width="0.254" layer="1"/>
-<wire x1="2.54" y1="-27.94" x2="34.29" y2="-59.69" width="0.254" layer="16"/>
+<wire x1="32.258" y1="-59.69" x2="40.64" y2="-59.69" width="0.254" layer="1"/>
 <wire x1="2.54" y1="-20.32" x2="2.54" y2="-27.94" width="0.254" layer="16"/>
 <wire x1="-10.16" y1="-7.62" x2="2.54" y2="-20.32" width="0.254" layer="16"/>
 <wire x1="-12.7" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="16"/>
@@ -2170,7 +2169,9 @@ design rules under a new name.</description>
 <wire x1="-43.18" y1="-30.48" x2="-41.91" y2="-31.75" width="0.254" layer="16"/>
 <wire x1="40.64" y1="-59.69" x2="40.12" y2="-59.89" width="0.254" layer="1"/>
 <wire x1="-43.18" y1="-30.48" x2="-43.35" y2="-30.25" width="0.254" layer="16"/>
-<via x="34.29" y="-59.69" extent="1-16" drill="0.6096"/>
+<via x="32.258" y="-59.69" extent="1-16" drill="0.6096"/>
+<wire x1="32.258" y1="-59.69" x2="32.258" y2="-57.658" width="0.254" layer="16"/>
+<wire x1="32.258" y1="-57.658" x2="2.54" y2="-27.94" width="0.254" layer="16"/>
 </signal>
 <signal name="BDOUT">
 <contactref element="BONUS" pad="10"/>

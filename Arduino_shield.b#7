@@ -154,6 +154,10 @@
 <hole x="115" y="75" drill="3.2"/>
 <circle x="115" y="-75" radius="3.5" width="0.6096" layer="21"/>
 <hole x="115" y="-75" drill="3.2"/>
+<text x="48.768" y="39.878" size="1.778" layer="21">Srylab 03/2022
+Arduino_shield
+Jacopo De Santis
+v1.0</text>
 </plain>
 <libraries>
 <library name="DUElib130425">
@@ -2656,8 +2660,8 @@ design rules under a new name.</description>
 <approved hash="6,1,0e5532a958096c63"/>
 <approved hash="6,1,dd0a8209820add09"/>
 <approved hash="6,1,64e77e587e5764e8"/>
-<approved hash="6,1,eb4f7714c0304f97"/>
 <approved hash="6,1,3b37f808f8063b39"/>
+<approved hash="6,1,eb4f7714c0304f97"/>
 <approved hash="6,1,e500ba3fba3ce503"/>
 <approved hash="6,1,4d734bfe4bf14d7c"/>
 <approved hash="6,1,9d6e531ddc1c1e68"/>
@@ -2669,18 +2673,24 @@ design rules under a new name.</description>
 <approved hash="6,1,c69289e00ce24b9c"/>
 <approved hash="6,1,08e647e547e408e7"/>
 <approved hash="6,1,e008eb97eb98e007"/>
-<approved hash="6,1,736a75a2972173eb"/>
 <approved hash="6,1,665fb5ef82151a61"/>
+<approved hash="6,1,736a75a2972173eb"/>
 <approved hash="6,1,60ec2ff32ff260ed"/>
 <approved hash="6,1,c69bc6d4241a3456"/>
 <approved hash="6,1,d44d9340934fd442"/>
 <approved hash="6,1,9678557555749679"/>
 <approved hash="6,1,f2c3fc58fcd1f242"/>
-<approved hash="6,1,3c477b5a7b553c48"/>
 <approved hash="6,1,81b5679167aa918c"/>
+<approved hash="6,1,3c477b5a7b553c48"/>
 <approved hash="6,1,7e72bd6fbd6e7e73"/>
 <approved hash="19,16,b3eda399a949b93d"/>
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

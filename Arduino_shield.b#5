@@ -154,7 +154,7 @@
 <hole x="115" y="75" drill="3.2"/>
 <circle x="115" y="-75" radius="3.5" width="0.6096" layer="21"/>
 <hole x="115" y="-75" drill="3.2"/>
-<text x="48.768" y="39.878" size="1.778" layer="21">Srylab 03/2022
+<text x="48.768" y="39.878" size="1.778" layer="21" font="vector">Srylab 03/2022
 Arduino_shield
 Jacopo De Santis
 v1.0</text>

@@ -1452,18 +1452,18 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="-77.38" y="73.252" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-77.38" y="73.252" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="-77.38" y="73.252" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-94.525" y="71.8042" size="0.889" layer="25" ratio="24"/>
+<attribute name="NAME" x="-94.525" y="71.8042" size="0.889" layer="25" ratio="9"/>
 <attribute name="VALUE" x="-87.54" y="66.902" size="1.27" layer="27"/>
 </element>
 <element name="PWR" library="CoilCircuitLibrary_E7" package="6PIN_CON" value="6PIN_CON" x="106.46" y="65.68" smashed="yes" rot="R180">
-<attribute name="NAME" x="95.284" y="71.014" size="0.889" layer="25" font="vector" ratio="24" rot="R180"/>
+<attribute name="NAME" x="95.284" y="71.014" size="0.889" layer="25" font="vector" ratio="9" rot="R180"/>
 </element>
 <element name="TEMP2" library="con-harting" package="CON16L" value="" x="22.62" y="72.73" smashed="yes">
 <attribute name="OC_FARNELL" value="unknown" x="22.62" y="72.73" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="22.62" y="72.73" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="22.62" y="72.73" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="22.62" y="72.73" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="5.475" y="71.7902" size="0.889" layer="25" ratio="24"/>
+<attribute name="NAME" x="5.475" y="71.7902" size="0.889" layer="25" ratio="9"/>
 <attribute name="VALUE" x="12.46" y="66.38" size="1.27" layer="27"/>
 </element>
 <element name="A/D" library="con-harting" package="CON16L" value="" x="78.95" y="-58.62" smashed="yes" rot="R270">
@@ -1471,7 +1471,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="78.95" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="78.95" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="78.95" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="72.9302" y="-57.477" size="0.889" layer="25" ratio="24" rot="R270"/>
+<attribute name="NAME" x="72.9302" y="-57.477" size="0.889" layer="25" ratio="9" rot="R270"/>
 <attribute name="VALUE" x="72.6" y="-48.46" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="BONUS" library="con-harting" package="CON16L" value="" x="41.39" y="-58.62" smashed="yes" rot="R270">
@@ -1479,7 +1479,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="41.39" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="41.39" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="41.39" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="34.6082" y="-57.477" size="0.889" layer="25" ratio="24" rot="R270"/>
+<attribute name="NAME" x="34.6082" y="-57.477" size="0.889" layer="25" ratio="9" rot="R270"/>
 <attribute name="VALUE" x="35.04" y="-48.46" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="REL2" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.61" y="14.14" smashed="yes">
@@ -1518,7 +1518,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="2-1462039-6" x="-7.61" y="14.14" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_DESCRIPTION" value="RELAY TELECOM DPDT 2A 3VDC" x="-7.61" y="14.14" size="1.778" layer="27" display="off"/>
 <attribute name="LEAD_FREE" value="Yes" x="-7.61" y="14.14" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-12.65" y="18.68" size="0.889" layer="25" ratio="24"/>
+<attribute name="NAME" x="-12.65" y="18.68" size="0.889" layer="25" ratio="9"/>
 </element>
 <element name="REL1" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.67" y="34.088" smashed="yes">
 <attribute name="AUTOMOTIVE" value="No" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
@@ -1556,7 +1556,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="2-1462039-6" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_DESCRIPTION" value="RELAY TELECOM DPDT 2A 3VDC" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
 <attribute name="LEAD_FREE" value="Yes" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-12.71" y="38.628" size="0.889" layer="25" ratio="24"/>
+<attribute name="NAME" x="-12.71" y="38.628" size="0.889" layer="25" ratio="9"/>
 </element>
 <element name="REL4" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.544" y="-25.104" smashed="yes">
 <attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
@@ -1594,7 +1594,7 @@ design rules under a new name.</description>
 <attribute name="STANDOFF_HEIGHT" value="0.25mm" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
 <attribute name="DEVICE_CLASS_L3" value="Signal Relays" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
 <attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-12.584" y="-20.564" size="0.889" layer="25" ratio="24"/>
+<attribute name="NAME" x="-12.584" y="-20.564" size="0.889" layer="25" ratio="9"/>
 </element>
 <element name="REL3" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.68" y="-6.43" smashed="yes">
 <attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
@@ -1632,42 +1632,42 @@ design rules under a new name.</description>
 <attribute name="STANDOFF_HEIGHT" value="0.25mm" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
 <attribute name="DEVICE_CLASS_L3" value="Signal Relays" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
 <attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-12.72" y="-1.89" size="0.889" layer="25" ratio="24"/>
+<attribute name="NAME" x="-12.72" y="-1.89" size="0.889" layer="25" ratio="9"/>
 </element>
 <element name="BUZZER" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="-6.32" y="-45.64" smashed="yes">
-<attribute name="NAME" x="-8.86" y="-53.26" size="0.889" layer="25" font="vector" ratio="24"/>
+<attribute name="NAME" x="-8.86" y="-53.26" size="0.889" layer="25" font="vector" ratio="9"/>
 </element>
 <element name="EXTRADIG" library="pinhead" package="2X16" value="" x="-70.08" y="40.04" smashed="yes">
-<attribute name="NAME" x="-90.4" y="43.215" size="0.889" layer="25" ratio="24"/>
+<attribute name="NAME" x="-90.4" y="43.215" size="0.889" layer="25" ratio="9"/>
 <attribute name="VALUE" x="-90.4" y="35.595" size="1.27" layer="27"/>
 </element>
 <element name="EXTRAANALOGUE" library="pinhead" package="2X16" value="" x="-23.26" y="0.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="-26.435" y="-19.4" size="0.889" layer="25" ratio="24" rot="R90"/>
+<attribute name="NAME" x="-26.435" y="-19.4" size="0.889" layer="25" ratio="9" rot="R90"/>
 <attribute name="VALUE" x="-18.815" y="-19.4" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="DEV1" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="25.68" y="33.94" smashed="yes">
-<attribute name="NAME" x="23.14" y="26.32" size="0.889" layer="25" font="vector" ratio="24"/>
+<attribute name="NAME" x="23.14" y="26.32" size="0.889" layer="25" font="vector" ratio="9"/>
 </element>
 <element name="DEV2" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="76.68" y="34.08" smashed="yes">
-<attribute name="NAME" x="74.14" y="26.46" size="0.889" layer="25" font="vector" ratio="24"/>
+<attribute name="NAME" x="74.14" y="26.46" size="0.889" layer="25" font="vector" ratio="9"/>
 </element>
 <element name="DEV3" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="49.68" y="14.22" smashed="yes">
-<attribute name="NAME" x="47.14" y="6.6" size="0.889" layer="25" font="vector" ratio="24"/>
+<attribute name="NAME" x="47.14" y="6.6" size="0.889" layer="25" font="vector" ratio="9"/>
 </element>
 <element name="DEV4" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="99.68" y="14.36" smashed="yes">
-<attribute name="NAME" x="97.14" y="6.74" size="0.889" layer="25" font="vector" ratio="24"/>
+<attribute name="NAME" x="97.14" y="6.74" size="0.889" layer="25" font="vector" ratio="9"/>
 </element>
 <element name="DEV5" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="25.68" y="-5.5" smashed="yes">
-<attribute name="NAME" x="23.14" y="-13.12" size="0.889" layer="25" font="vector" ratio="24"/>
+<attribute name="NAME" x="23.14" y="-13.12" size="0.889" layer="25" font="vector" ratio="9"/>
 </element>
 <element name="DEV6" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="76.68" y="-5.36" smashed="yes">
-<attribute name="NAME" x="74.14" y="-12.98" size="0.889" layer="25" font="vector" ratio="24"/>
+<attribute name="NAME" x="74.14" y="-12.98" size="0.889" layer="25" font="vector" ratio="9"/>
 </element>
 <element name="DEV7" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="49.68" y="-25.22" smashed="yes">
-<attribute name="NAME" x="47.14" y="-32.84" size="0.889" layer="25" font="vector" ratio="24"/>
+<attribute name="NAME" x="47.14" y="-32.84" size="0.889" layer="25" font="vector" ratio="9"/>
 </element>
 <element name="DEV8" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="99.68" y="-25.08" smashed="yes">
-<attribute name="NAME" x="97.14" y="-32.7" size="0.889" layer="25" font="vector" ratio="24"/>
+<attribute name="NAME" x="97.14" y="-32.7" size="0.889" layer="25" font="vector" ratio="9"/>
 </element>
 </elements>
 <signals>
