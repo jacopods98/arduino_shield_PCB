@@ -154,6 +154,10 @@
 <hole x="115" y="75" drill="3.2"/>
 <circle x="115" y="-75" radius="3.5" width="0.6096" layer="21"/>
 <hole x="115" y="-75" drill="3.2"/>
+<text x="48.768" y="39.878" size="1.778" layer="21" font="vector">Srylab 03/2022
+Arduino_shield
+Jacopo De Santis
+v1.0</text>
 </plain>
 <libraries>
 <library name="DUElib130425">
@@ -1442,33 +1446,43 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="DUElib130425" package="DUE(NORMAL)" value="DUE(NORMAL)" x="-61.13" y="-6.12" rot="R90"/>
-<element name="TEMP1" library="con-harting" package="CON16L" value="" x="-77.38" y="73.252">
+<element name="U$1" library="DUElib130425" package="DUE(NORMAL)" value="DUE(NORMAL)" x="-61.13" y="-6.12" smashed="yes" rot="R90"/>
+<element name="TEMP1" library="con-harting" package="CON16L" value="" x="-77.38" y="73.252" smashed="yes">
 <attribute name="OC_FARNELL" value="unknown" x="-77.38" y="73.252" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-77.38" y="73.252" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-77.38" y="73.252" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="-77.38" y="73.252" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-94.525" y="71.8042" size="0.889" layer="25" ratio="24"/>
+<attribute name="VALUE" x="-87.54" y="66.902" size="1.27" layer="27"/>
 </element>
-<element name="PWR" library="CoilCircuitLibrary_E7" package="6PIN_CON" value="6PIN_CON" x="106.46" y="65.68" rot="R180"/>
-<element name="TEMP2" library="con-harting" package="CON16L" value="" x="22.62" y="72.73">
+<element name="PWR" library="CoilCircuitLibrary_E7" package="6PIN_CON" value="6PIN_CON" x="106.46" y="65.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="109" y="73.3" size="0.889" layer="25" font="vector" ratio="24" rot="R180"/>
+</element>
+<element name="TEMP2" library="con-harting" package="CON16L" value="" x="22.62" y="72.73" smashed="yes">
 <attribute name="OC_FARNELL" value="unknown" x="22.62" y="72.73" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="22.62" y="72.73" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="22.62" y="72.73" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="22.62" y="72.73" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="5.475" y="71.7902" size="0.889" layer="25" ratio="24"/>
+<attribute name="VALUE" x="12.46" y="66.38" size="1.27" layer="27"/>
 </element>
-<element name="A/D" library="con-harting" package="CON16L" value="" x="78.95" y="-58.62" rot="R270">
+<element name="A/D" library="con-harting" package="CON16L" value="" x="78.95" y="-58.62" smashed="yes" rot="R270">
 <attribute name="OC_FARNELL" value="unknown" x="78.95" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="78.95" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="78.95" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="78.95" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="84.8682" y="-49.095" size="0.889" layer="25" ratio="24" rot="R270"/>
+<attribute name="VALUE" x="72.6" y="-48.46" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="BONUS" library="con-harting" package="CON16L" value="" x="41.39" y="-58.62" rot="R270">
+<element name="BONUS" library="con-harting" package="CON16L" value="" x="41.39" y="-58.62" smashed="yes" rot="R270">
 <attribute name="OC_FARNELL" value="unknown" x="41.39" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="41.39" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="41.39" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="41.39" y="-58.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="47.3082" y="-49.095" size="0.889" layer="25" ratio="24" rot="R270"/>
+<attribute name="VALUE" x="35.04" y="-48.46" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="REL2" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.61" y="14.14">
+<element name="REL2" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.61" y="14.14" smashed="yes">
 <attribute name="AUTOMOTIVE" value="No" x="-7.61" y="14.14" size="1.778" layer="27" display="off"/>
 <attribute name="DEVICE_CLASS_L1" value="Electromechanical" x="-7.61" y="14.14" size="1.778" layer="27" display="off"/>
 <attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-7.61" y="14.14" size="1.778" layer="27" display="off"/>
@@ -1504,8 +1518,9 @@ design rules under a new name.</description>
 <attribute name="MPN" value="2-1462039-6" x="-7.61" y="14.14" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_DESCRIPTION" value="RELAY TELECOM DPDT 2A 3VDC" x="-7.61" y="14.14" size="1.778" layer="27" display="off"/>
 <attribute name="LEAD_FREE" value="Yes" x="-7.61" y="14.14" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.65" y="18.68" size="0.889" layer="25" ratio="24"/>
 </element>
-<element name="REL1" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.67" y="34.088">
+<element name="REL1" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.67" y="34.088" smashed="yes">
 <attribute name="AUTOMOTIVE" value="No" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
 <attribute name="DEVICE_CLASS_L1" value="Electromechanical" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
 <attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
@@ -1541,8 +1556,9 @@ design rules under a new name.</description>
 <attribute name="MPN" value="2-1462039-6" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_DESCRIPTION" value="RELAY TELECOM DPDT 2A 3VDC" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
 <attribute name="LEAD_FREE" value="Yes" x="-7.67" y="34.088" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.71" y="38.628" size="0.889" layer="25" ratio="24"/>
 </element>
-<element name="REL4" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.544" y="-25.104">
+<element name="REL4" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.544" y="-25.104" smashed="yes">
 <attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
 <attribute name="COIL_RESISTANCE" value="180Ω" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
 <attribute name="COIL_VOLTAGE" value="3V" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
@@ -1578,8 +1594,9 @@ design rules under a new name.</description>
 <attribute name="STANDOFF_HEIGHT" value="0.25mm" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
 <attribute name="DEVICE_CLASS_L3" value="Signal Relays" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
 <attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-18.974" y="-11.134" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.584" y="-20.564" size="0.889" layer="25" ratio="24"/>
 </element>
-<element name="REL3" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.68" y="-6.43">
+<element name="REL3" library="TE - 2-1462039-6" package="TE_2-1462039-6_0" value="TE_2-1462039-6TE_2-1462039-6_0_0" x="-7.68" y="-6.43" smashed="yes">
 <attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
 <attribute name="COIL_RESISTANCE" value="180Ω" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
 <attribute name="COIL_VOLTAGE" value="3V" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
@@ -1615,18 +1632,43 @@ design rules under a new name.</description>
 <attribute name="STANDOFF_HEIGHT" value="0.25mm" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
 <attribute name="DEVICE_CLASS_L3" value="Signal Relays" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
 <attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-19.11" y="6.27" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.72" y="-1.89" size="0.889" layer="25" ratio="24"/>
 </element>
-<element name="BUZZER" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="-6.32" y="-45.64"/>
-<element name="EXTRADIG" library="pinhead" package="2X16" value="" x="-70.08" y="40.04"/>
-<element name="EXTRAANALOGUE" library="pinhead" package="2X16" value="" x="-23.26" y="0.92" rot="R90"/>
-<element name="DEV1" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="25.68" y="33.94"/>
-<element name="DEV2" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="76.68" y="34.08"/>
-<element name="DEV3" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="49.68" y="14.22"/>
-<element name="DEV4" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="99.68" y="14.36"/>
-<element name="DEV5" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="25.68" y="-5.5"/>
-<element name="DEV6" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="76.68" y="-5.36"/>
-<element name="DEV7" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="49.68" y="-25.22"/>
-<element name="DEV8" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="99.68" y="-25.08"/>
+<element name="BUZZER" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="-6.32" y="-45.64" smashed="yes">
+<attribute name="NAME" x="-8.86" y="-53.26" size="0.889" layer="25" font="vector" ratio="24"/>
+</element>
+<element name="EXTRADIG" library="pinhead" package="2X16" value="" x="-70.08" y="40.04" smashed="yes">
+<attribute name="NAME" x="-90.4" y="43.215" size="0.889" layer="25" ratio="24"/>
+<attribute name="VALUE" x="-90.4" y="35.595" size="1.27" layer="27"/>
+</element>
+<element name="EXTRAANALOGUE" library="pinhead" package="2X16" value="" x="-23.26" y="0.92" smashed="yes" rot="R90">
+<attribute name="NAME" x="-26.435" y="-19.4" size="0.889" layer="25" ratio="24" rot="R90"/>
+<attribute name="VALUE" x="-18.815" y="-19.4" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="DEV1" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="25.68" y="33.94" smashed="yes">
+<attribute name="NAME" x="23.14" y="26.32" size="0.889" layer="25" font="vector" ratio="24"/>
+</element>
+<element name="DEV2" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="76.68" y="34.08" smashed="yes">
+<attribute name="NAME" x="74.14" y="26.46" size="0.889" layer="25" font="vector" ratio="24"/>
+</element>
+<element name="DEV3" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="49.68" y="14.22" smashed="yes">
+<attribute name="NAME" x="47.14" y="6.6" size="0.889" layer="25" font="vector" ratio="24"/>
+</element>
+<element name="DEV4" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="99.68" y="14.36" smashed="yes">
+<attribute name="NAME" x="97.14" y="6.74" size="0.889" layer="25" font="vector" ratio="24"/>
+</element>
+<element name="DEV5" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="25.68" y="-5.5" smashed="yes">
+<attribute name="NAME" x="23.14" y="-13.12" size="0.889" layer="25" font="vector" ratio="24"/>
+</element>
+<element name="DEV6" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="76.68" y="-5.36" smashed="yes">
+<attribute name="NAME" x="74.14" y="-12.98" size="0.889" layer="25" font="vector" ratio="24"/>
+</element>
+<element name="DEV7" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="49.68" y="-25.22" smashed="yes">
+<attribute name="NAME" x="47.14" y="-32.84" size="0.889" layer="25" font="vector" ratio="24"/>
+</element>
+<element name="DEV8" library="CoilCircuitLibrary_E7" package="3PIN_CON" value="3PIN_CON" x="99.68" y="-25.08" smashed="yes">
+<attribute name="NAME" x="97.14" y="-32.7" size="0.889" layer="25" font="vector" ratio="24"/>
+</element>
 </elements>
 <signals>
 <signal name="+3V3">
@@ -1675,9 +1717,9 @@ design rules under a new name.</description>
 <wire x1="41.402" y1="-53.594" x2="76.356" y2="-53.594" width="0.254" layer="1"/>
 <wire x1="76.356" y1="-53.594" x2="77.68" y2="-52.27" width="0.254" layer="1"/>
 <wire x1="102.87" y1="68.58" x2="105.41" y2="66.04" width="0.254" layer="16"/>
-<wire x1="74.93" y1="68.58" x2="102.87" y2="68.58" width="0.254" layer="16"/>
-<wire x1="74.93" y1="-49.53" x2="74.93" y2="68.58" width="0.254" layer="16"/>
-<wire x1="77.47" y1="-52.07" x2="74.93" y2="-49.53" width="0.254" layer="16"/>
+<wire x1="73.914" y1="68.58" x2="102.87" y2="68.58" width="0.254" layer="16"/>
+<wire x1="77.47" y1="-52.07" x2="75.438" y2="-50.038" width="0.254" layer="16"/>
+<wire x1="75.438" y1="-50.038" x2="74.93" y2="-49.53" width="0.254" layer="16"/>
 <wire x1="105.41" y1="66.04" x2="106.46" y2="65.68" width="0.254" layer="16"/>
 <wire x1="77.47" y1="-52.07" x2="77.68" y2="-52.27" width="0.254" layer="16"/>
 <wire x1="-83.82" y1="66.04" x2="-83.82" y2="72.39" width="0.254" layer="16"/>
@@ -1702,6 +1744,9 @@ design rules under a new name.</description>
 <via x="16.51" y="67.31" extent="1-16" drill="0.6096"/>
 <via x="-17.78" y="62.23" extent="1-16" drill="0.6096"/>
 <via x="17.78" y="60.96" extent="1-16" drill="0.6096"/>
+<wire x1="73.914" y1="68.58" x2="70.612" y2="65.278" width="0.254" layer="16"/>
+<wire x1="70.612" y1="65.278" x2="70.612" y2="-45.212" width="0.254" layer="16"/>
+<wire x1="70.612" y1="-45.212" x2="74.93" y2="-49.53" width="0.254" layer="16"/>
 </signal>
 <signal name="-15V">
 <contactref element="PWR" pad="P$2"/>
@@ -1732,13 +1777,11 @@ design rules under a new name.</description>
 <wire x1="13.97" y1="71.12" x2="13.97" y2="55.88" width="0.254" layer="16"/>
 <wire x1="-86.36" y1="72.39" x2="-86.27" y2="71.982" width="0.254" layer="16"/>
 <wire x1="13.97" y1="71.12" x2="13.73" y2="71.46" width="0.254" layer="16"/>
-<wire x1="-21.59" y1="-16.51" x2="-21.59" y2="-15.24" width="0.254" layer="1"/>
 <wire x1="-20.32" y1="-17.78" x2="-21.59" y2="-16.51" width="0.254" layer="1"/>
 <wire x1="-16.51" y1="-13.97" x2="-20.32" y2="-17.78" width="0.254" layer="16"/>
 <wire x1="-16.51" y1="26.67" x2="-16.51" y2="-13.97" width="0.254" layer="16"/>
 <wire x1="12.7" y1="55.88" x2="-8.89" y2="34.29" width="0.254" layer="16"/>
 <wire x1="-8.89" y1="34.29" x2="-16.51" y2="26.67" width="0.254" layer="16"/>
-<wire x1="-21.59" y1="-15.24" x2="-21.99" y2="-15.59" width="0.254" layer="1"/>
 <wire x1="24.13" y1="-33.02" x2="40.64" y2="-49.53" width="0.254" layer="1"/>
 <wire x1="-8.89" y1="0" x2="24.13" y2="-33.02" width="0.254" layer="16"/>
 <wire x1="-8.89" y1="34.29" x2="-8.89" y2="0" width="0.254" layer="16"/>
@@ -1747,6 +1790,8 @@ design rules under a new name.</description>
 <via x="10.16" y="58.42" extent="1-16" drill="0.6096"/>
 <via x="-20.32" y="-17.78" extent="1-16" drill="0.6096"/>
 <via x="24.13" y="-33.02" extent="1-16" drill="0.6096"/>
+<wire x1="-21.59" y1="-16.51" x2="-21.59" y2="-15.99" width="0.254" layer="1"/>
+<wire x1="-21.59" y1="-15.99" x2="-21.99" y2="-15.59" width="0.254" layer="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="PWR" pad="P$3"/>
@@ -1939,8 +1984,8 @@ design rules under a new name.</description>
 <wire x1="34.29" y1="-60.96" x2="34.29" y2="-64.77" width="0.254" layer="16"/>
 <wire x1="35.56" y1="-59.69" x2="34.29" y2="-60.96" width="0.254" layer="16"/>
 <wire x1="35.56" y1="-19.05" x2="35.56" y2="-59.69" width="0.254" layer="16"/>
-<wire x1="24.13" y1="-7.62" x2="35.56" y2="-19.05" width="0.254" layer="16"/>
-<wire x1="24.13" y1="67.31" x2="24.13" y2="-7.62" width="0.254" layer="16"/>
+<wire x1="24.13" y1="-7.62" x2="24.257" y2="-7.747" width="0.254" layer="16"/>
+<wire x1="24.257" y1="-7.747" x2="35.56" y2="-19.05" width="0.254" layer="16"/>
 <wire x1="40.64" y1="-64.77" x2="40.12" y2="-64.97" width="0.254" layer="16"/>
 <via x="-60.96" y="60.96" extent="1-16" drill="0.6096"/>
 <via x="24.13" y="67.31" extent="1-16" drill="0.6096"/>
@@ -1949,6 +1994,10 @@ design rules under a new name.</description>
 <wire x1="44.958" y1="-65.024" x2="45.72" y2="-65.024" width="0.254" layer="16"/>
 <wire x1="37.338" y1="-66.294" x2="36.322" y2="-65.278" width="0.254" layer="16"/>
 <wire x1="36.322" y1="-65.278" x2="36.322" y2="-64.77" width="0.254" layer="16"/>
+<wire x1="24.13" y1="67.31" x2="24.13" y2="47.244" width="0.254" layer="16"/>
+<wire x1="24.13" y1="47.244" x2="19.558" y2="42.672" width="0.254" layer="16"/>
+<wire x1="19.558" y1="42.672" x2="19.558" y2="-3.048" width="0.254" layer="16"/>
+<wire x1="19.558" y1="-3.048" x2="24.13" y2="-7.62" width="0.254" layer="16"/>
 </signal>
 <signal name="SCK">
 <contactref element="U$1" pad="SCK_ICSP"/>
@@ -2656,8 +2705,8 @@ design rules under a new name.</description>
 <approved hash="6,1,0e5532a958096c63"/>
 <approved hash="6,1,dd0a8209820add09"/>
 <approved hash="6,1,64e77e587e5764e8"/>
-<approved hash="6,1,eb4f7714c0304f97"/>
 <approved hash="6,1,3b37f808f8063b39"/>
+<approved hash="6,1,eb4f7714c0304f97"/>
 <approved hash="6,1,e500ba3fba3ce503"/>
 <approved hash="6,1,4d734bfe4bf14d7c"/>
 <approved hash="6,1,9d6e531ddc1c1e68"/>
@@ -2669,18 +2718,24 @@ design rules under a new name.</description>
 <approved hash="6,1,c69289e00ce24b9c"/>
 <approved hash="6,1,08e647e547e408e7"/>
 <approved hash="6,1,e008eb97eb98e007"/>
-<approved hash="6,1,736a75a2972173eb"/>
 <approved hash="6,1,665fb5ef82151a61"/>
+<approved hash="6,1,736a75a2972173eb"/>
 <approved hash="6,1,60ec2ff32ff260ed"/>
 <approved hash="6,1,c69bc6d4241a3456"/>
 <approved hash="6,1,d44d9340934fd442"/>
 <approved hash="6,1,9678557555749679"/>
 <approved hash="6,1,f2c3fc58fcd1f242"/>
-<approved hash="6,1,3c477b5a7b553c48"/>
 <approved hash="6,1,81b5679167aa918c"/>
+<approved hash="6,1,3c477b5a7b553c48"/>
 <approved hash="6,1,7e72bd6fbd6e7e73"/>
 <approved hash="19,16,b3eda399a949b93d"/>
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
