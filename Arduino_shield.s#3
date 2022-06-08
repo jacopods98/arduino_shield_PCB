@@ -2245,9 +2245,9 @@ Created by Upverter.com</description>
 <part name="REL1" library="TE - 2-1462039-6" deviceset="TE_2-1462039-6" device="TE_2-1462039-6_0_0"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="REL3" library="TE - 2-1462039-6" deviceset="TE_2-1462039-6" device="TE_2-1462039-6_0_0"/>
-<part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="REL4" library="TE - 2-1462039-6" deviceset="TE_2-1462039-6" device="TE_2-1462039-6_0_0"/>
+<part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="REL3" library="TE - 2-1462039-6" deviceset="TE_2-1462039-6" device="TE_2-1462039-6_0_0"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="BUZZER" library="CoilCircuitLibrary_E7" deviceset="3PIN_CON" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -2330,9 +2330,9 @@ Jacopo De Santis</text>
 <instance part="REL1" gate="G$0" x="254" y="17.78"/>
 <instance part="GND5" gate="1" x="274.32" y="-22.86" rot="R90"/>
 <instance part="GND8" gate="1" x="274.32" y="2.54" rot="R90"/>
-<instance part="REL3" gate="G$0" x="254" y="45.72"/>
+<instance part="REL4" gate="G$0" x="254" y="45.72"/>
 <instance part="GND9" gate="1" x="274.32" y="30.48" rot="R90"/>
-<instance part="REL4" gate="G$0" x="256.54" y="76.2"/>
+<instance part="REL3" gate="G$0" x="256.54" y="76.2"/>
 <instance part="GND10" gate="1" x="276.86" y="60.96" rot="R90"/>
 <instance part="BUZZER" gate="G$1" x="254" y="96.52" rot="R180"/>
 <instance part="GND11" gate="1" x="243.84" y="101.6" rot="R270"/>
@@ -2533,12 +2533,12 @@ Jacopo De Santis</text>
 <wire x1="271.78" y1="2.54" x2="269.24" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="REL3" gate="G$0" pin="8"/>
+<pinref part="REL4" gate="G$0" pin="8"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="271.78" y1="30.48" x2="269.24" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="REL4" gate="G$0" pin="8"/>
+<pinref part="REL3" gate="G$0" pin="8"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="274.32" y1="60.96" x2="271.78" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -2863,7 +2863,7 @@ Jacopo De Santis</text>
 <label x="114.3" y="83.82" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="REL3" gate="G$0" pin="1"/>
+<pinref part="REL4" gate="G$0" pin="1"/>
 <wire x1="248.92" y1="30.48" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
 <label x="246.38" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2875,7 +2875,7 @@ Jacopo De Santis</text>
 <label x="116.84" y="83.82" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="REL4" gate="G$0" pin="1"/>
+<pinref part="REL3" gate="G$0" pin="1"/>
 <wire x1="251.46" y1="60.96" x2="248.92" y2="60.96" width="0.1524" layer="91"/>
 <label x="248.92" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2930,7 +2930,7 @@ Jacopo De Santis</text>
 </net>
 <net name="D5A" class="0">
 <segment>
-<pinref part="REL4" gate="G$0" pin="6"/>
+<pinref part="REL3" gate="G$0" pin="6"/>
 <wire x1="254" y1="71.12" x2="251.46" y2="71.12" width="0.1524" layer="91"/>
 <label x="251.46" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2942,7 +2942,7 @@ Jacopo De Santis</text>
 </net>
 <net name="D5B" class="0">
 <segment>
-<pinref part="REL4" gate="G$0" pin="7"/>
+<pinref part="REL3" gate="G$0" pin="7"/>
 <wire x1="269.24" y1="73.66" x2="271.78" y2="73.66" width="0.1524" layer="91"/>
 <label x="271.78" y="73.66" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -2954,7 +2954,7 @@ Jacopo De Santis</text>
 </net>
 <net name="D6A" class="0">
 <segment>
-<pinref part="REL4" gate="G$0" pin="3"/>
+<pinref part="REL3" gate="G$0" pin="3"/>
 <wire x1="254" y1="66.04" x2="251.46" y2="66.04" width="0.1524" layer="91"/>
 <label x="251.46" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2966,7 +2966,7 @@ Jacopo De Santis</text>
 </net>
 <net name="D6B" class="0">
 <segment>
-<pinref part="REL4" gate="G$0" pin="2"/>
+<pinref part="REL3" gate="G$0" pin="2"/>
 <wire x1="269.24" y1="68.58" x2="271.78" y2="68.58" width="0.1524" layer="91"/>
 <label x="271.78" y="68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -2978,7 +2978,7 @@ Jacopo De Santis</text>
 </net>
 <net name="D7A" class="0">
 <segment>
-<pinref part="REL3" gate="G$0" pin="6"/>
+<pinref part="REL4" gate="G$0" pin="6"/>
 <wire x1="251.46" y1="40.64" x2="248.92" y2="40.64" width="0.1524" layer="91"/>
 <label x="248.92" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2990,7 +2990,7 @@ Jacopo De Santis</text>
 </net>
 <net name="D7B" class="0">
 <segment>
-<pinref part="REL3" gate="G$0" pin="7"/>
+<pinref part="REL4" gate="G$0" pin="7"/>
 <wire x1="266.7" y1="43.18" x2="269.24" y2="43.18" width="0.1524" layer="91"/>
 <label x="269.24" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -3002,7 +3002,7 @@ Jacopo De Santis</text>
 </net>
 <net name="D8A" class="0">
 <segment>
-<pinref part="REL3" gate="G$0" pin="3"/>
+<pinref part="REL4" gate="G$0" pin="3"/>
 <wire x1="251.46" y1="35.56" x2="248.92" y2="35.56" width="0.1524" layer="91"/>
 <label x="248.92" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -3014,7 +3014,7 @@ Jacopo De Santis</text>
 </net>
 <net name="D8B" class="0">
 <segment>
-<pinref part="REL3" gate="G$0" pin="2"/>
+<pinref part="REL4" gate="G$0" pin="2"/>
 <wire x1="266.7" y1="38.1" x2="269.24" y2="38.1" width="0.1524" layer="91"/>
 <label x="269.24" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -3043,9 +3043,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="76.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="58.42" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="1"/>
-<label x="147.32" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="EXTRADIG" gate="A" pin="2"/>
+<wire x1="165.1" y1="58.42" x2="160.02" y2="58.42" width="0.1524" layer="91"/>
+<label x="165.1" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D23" class="0">
@@ -3055,9 +3055,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="73.66" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="EXTRADIG" gate="A" pin="2"/>
-<wire x1="165.1" y1="58.42" x2="160.02" y2="58.42" width="0.1524" layer="91"/>
-<label x="165.1" y="58.42" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="58.42" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="1"/>
+<label x="147.32" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D24" class="0">
@@ -3067,9 +3067,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="71.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="55.88" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="3"/>
-<label x="147.32" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="55.88" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="4"/>
+<label x="165.1" y="55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D25" class="0">
@@ -3079,9 +3079,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="55.88" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="4"/>
-<label x="165.1" y="55.88" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="55.88" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="3"/>
+<label x="147.32" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D26" class="0">
@@ -3091,9 +3091,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="66.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="5"/>
-<label x="147.32" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="53.34" x2="160.02" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="6"/>
+<label x="165.1" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D27" class="0">
@@ -3103,9 +3103,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="53.34" x2="160.02" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="6"/>
-<label x="165.1" y="53.34" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="5"/>
+<label x="147.32" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D28" class="0">
@@ -3115,9 +3115,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="60.96" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="50.8" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="7"/>
-<label x="147.32" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="50.8" x2="165.1" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="8"/>
+<label x="165.1" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D29" class="0">
@@ -3127,9 +3127,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="50.8" x2="165.1" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="8"/>
-<label x="165.1" y="50.8" size="1.778" layer="95" xref="yes"/>
+<wire x1="147.32" y1="50.8" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="7"/>
+<label x="147.32" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D30" class="0">
@@ -3139,9 +3139,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="48.26" x2="147.32" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="9"/>
-<label x="147.32" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="48.26" x2="160.02" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="10"/>
+<label x="165.1" y="48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D31" class="0">
@@ -3151,9 +3151,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="48.26" x2="160.02" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="10"/>
-<label x="165.1" y="48.26" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="48.26" x2="147.32" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="9"/>
+<label x="147.32" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D32" class="0">
@@ -3163,9 +3163,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="11"/>
-<label x="147.32" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="45.72" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="12"/>
+<label x="165.1" y="45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D33" class="0">
@@ -3175,9 +3175,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="45.72" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="12"/>
-<label x="165.1" y="45.72" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="11"/>
+<label x="147.32" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D34" class="0">
@@ -3187,9 +3187,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="43.18" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="13"/>
-<label x="147.32" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="43.18" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="14"/>
+<label x="165.1" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D35" class="0">
@@ -3199,9 +3199,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="43.18" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="14"/>
-<label x="165.1" y="43.18" size="1.778" layer="95" xref="yes"/>
+<wire x1="147.32" y1="43.18" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="13"/>
+<label x="147.32" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D36" class="0">
@@ -3211,9 +3211,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="40.64" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="15"/>
-<label x="147.32" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="40.64" x2="160.02" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="16"/>
+<label x="165.1" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D37" class="0">
@@ -3223,9 +3223,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="40.64" x2="160.02" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="16"/>
-<label x="165.1" y="40.64" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="40.64" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="15"/>
+<label x="147.32" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D38" class="0">
@@ -3235,9 +3235,10 @@ Jacopo De Santis</text>
 <label x="129.54" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="17"/>
-<label x="147.32" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="38.1" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="18"/>
+<label x="165.1" y="38.1" size="1.778" layer="95" xref="yes"/>
+<label x="165.1" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D39" class="0">
@@ -3247,10 +3248,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="38.1" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="18"/>
-<label x="165.1" y="38.1" size="1.778" layer="95" xref="yes"/>
-<label x="165.1" y="38.1" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="17"/>
+<label x="147.32" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D40" class="0">
@@ -3260,9 +3260,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="35.56" x2="152.4" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="19"/>
-<label x="147.32" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="35.56" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="20"/>
+<label x="165.1" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D41" class="0">
@@ -3272,9 +3272,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="35.56" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="20"/>
-<label x="165.1" y="35.56" size="1.778" layer="95" xref="yes"/>
+<wire x1="147.32" y1="35.56" x2="152.4" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="19"/>
+<label x="147.32" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D42" class="0">
@@ -3284,9 +3284,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="33.02" x2="147.32" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="21"/>
-<label x="147.32" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="33.02" x2="160.02" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="22"/>
+<label x="165.1" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D43" class="0">
@@ -3296,9 +3296,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="22.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="33.02" x2="160.02" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="22"/>
-<label x="165.1" y="33.02" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="33.02" x2="147.32" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="21"/>
+<label x="147.32" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D44" class="0">
@@ -3308,9 +3308,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="30.48" x2="147.32" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="23"/>
-<label x="147.32" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="30.48" x2="160.02" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="24"/>
+<label x="165.1" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D45" class="0">
@@ -3320,9 +3320,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="17.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="30.48" x2="160.02" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="24"/>
-<label x="165.1" y="30.48" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="30.48" x2="147.32" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="23"/>
+<label x="147.32" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D46" class="0">
@@ -3332,9 +3332,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="27.94" x2="147.32" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="25"/>
-<label x="147.32" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="27.94" x2="160.02" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="26"/>
+<label x="165.1" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D47" class="0">
@@ -3344,9 +3344,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="27.94" x2="160.02" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="26"/>
-<label x="165.1" y="27.94" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="27.94" x2="147.32" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="25"/>
+<label x="147.32" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D48" class="0">
@@ -3356,9 +3356,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="27"/>
-<label x="147.32" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="25.4" x2="160.02" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="28"/>
+<label x="165.1" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D49" class="0">
@@ -3368,9 +3368,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="25.4" x2="160.02" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="28"/>
-<label x="165.1" y="25.4" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="27"/>
+<label x="147.32" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D50" class="0">
@@ -3380,9 +3380,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="5.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="22.86" x2="147.32" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="29"/>
-<label x="147.32" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="22.86" x2="160.02" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="30"/>
+<label x="165.1" y="22.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D51" class="0">
@@ -3392,9 +3392,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="22.86" x2="160.02" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="30"/>
-<label x="165.1" y="22.86" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="22.86" x2="147.32" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="29"/>
+<label x="147.32" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D52" class="0">
@@ -3404,9 +3404,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="0" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="20.32" x2="147.32" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="31"/>
-<label x="147.32" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="20.32" x2="160.02" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="32"/>
+<label x="165.1" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D53" class="0">
@@ -3416,9 +3416,9 @@ Jacopo De Santis</text>
 <label x="129.54" y="-2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="20.32" x2="160.02" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="EXTRADIG" gate="A" pin="32"/>
-<label x="165.1" y="20.32" size="1.778" layer="95" xref="yes"/>
+<wire x1="152.4" y1="20.32" x2="147.32" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="EXTRADIG" gate="A" pin="31"/>
+<label x="147.32" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$57" class="0">

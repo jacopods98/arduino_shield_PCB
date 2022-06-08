@@ -2270,6 +2270,7 @@ Created by Upverter.com</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2353,10 +2354,11 @@ Jacopo De Santis</text>
 <instance part="DEV6" gate="G$1" x="317.5" y="0" rot="R180"/>
 <instance part="DEV7" gate="G$1" x="317.5" y="-22.86" rot="R180"/>
 <instance part="DEV8" gate="G$1" x="317.5" y="-45.72" rot="R180"/>
-<instance part="GND13" gate="1" x="53.34" y="0" rot="R270"/>
-<instance part="GND14" gate="1" x="76.2" y="83.82" rot="R180"/>
-<instance part="GND15" gate="1" x="78.74" y="83.82" rot="R180"/>
-<instance part="GND16" gate="1" x="73.66" y="83.82" rot="R180"/>
+<instance part="GND13" gate="1" x="50.8" y="0" rot="R270"/>
+<instance part="GND14" gate="1" x="76.2" y="86.36" rot="R180"/>
+<instance part="GND15" gate="1" x="78.74" y="88.9" rot="R180"/>
+<instance part="GND16" gate="1" x="73.66" y="88.9" rot="R180"/>
+<instance part="GND17" gate="1" x="50.8" y="73.66" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -2552,18 +2554,27 @@ Jacopo De Santis</text>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND_2"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="53.34" y1="0" x2="55.88" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND_A"/>
 <pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="76.2" y1="83.82" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND_B"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="78.74" y1="86.36" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND1"/>
 <pinref part="GND16" gate="1" pin="GND"/>
+<wire x1="73.66" y1="86.36" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="5V_ICSP"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="53.34" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
